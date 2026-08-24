@@ -1,0 +1,410 @@
+[
+    {
+        "real_condition": "Papa: Tizón tardío",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 6,
+        "percentage_of_all_errors": 5.217391304347826
+    },
+    {
+        "real_condition": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 5,
+        "percentage_of_all_errors": 4.3478260869565215
+    },
+    {
+        "real_condition": "Tomate: Virus del mosaico del tomate (TMV)",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 5,
+        "percentage_of_all_errors": 4.3478260869565215
+    },
+    {
+        "real_condition": "Tomate: Saludable",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 5,
+        "percentage_of_all_errors": 4.3478260869565215
+    },
+    {
+        "real_condition": "Maíz: Tizón foliar norteño",
+        "predicted_condition": "Maíz: Mancha foliar gris por Cercospora",
+        "error_count": 4,
+        "percentage_of_all_errors": 3.4782608695652173
+    },
+    {
+        "real_condition": "Papa: Tizón temprano",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 4,
+        "percentage_of_all_errors": 3.4782608695652173
+    },
+    {
+        "real_condition": "Tomate: Moho foliar",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 4,
+        "percentage_of_all_errors": 3.4782608695652173
+    },
+    {
+        "real_condition": "Manzana: Roya del manzano",
+        "predicted_condition": "Vid (Uva): Esca (Sarampión negro)",
+        "error_count": 3,
+        "percentage_of_all_errors": 2.608695652173913
+    },
+    {
+        "real_condition": "Maíz: Roya común",
+        "predicted_condition": "Maíz: Tizón foliar norteño",
+        "error_count": 3,
+        "percentage_of_all_errors": 2.608695652173913
+    },
+    {
+        "real_condition": "Vid (Uva): Podredumbre negra",
+        "predicted_condition": "Vid (Uva): Esca (Sarampión negro)",
+        "error_count": 3,
+        "percentage_of_all_errors": 2.608695652173913
+    },
+    {
+        "real_condition": "Tomate: Tizón temprano",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 3,
+        "percentage_of_all_errors": 2.608695652173913
+    },
+    {
+        "real_condition": "Manzana: Sarna del manzano",
+        "predicted_condition": "Tomate: Tizón temprano",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Manzana: Roya del manzano",
+        "predicted_condition": "Pimiento: Mancha bacteriana",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Manzana: Roya del manzano",
+        "predicted_condition": "Manzana: Sarna del manzano",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Manzana: Saludable",
+        "predicted_condition": "Manzana: Sarna del manzano",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Maíz: Roya común",
+        "predicted_condition": "Maíz: Mancha foliar gris por Cercospora",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Vid (Uva): Saludable",
+        "predicted_condition": "Vid (Uva): Tizón foliar por Isariopsis",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Vid (Uva): Saludable",
+        "predicted_condition": "Manzana: Sarna del manzano",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Pimiento: Saludable",
+        "predicted_condition": "Pimiento: Mancha bacteriana",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Tomate: Mancha bacteriana",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Tomate: Mancha bacteriana",
+        "predicted_condition": "Pimiento: Mancha bacteriana",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Tomate: Mancha bacteriana",
+        "predicted_condition": "Tomate: Tizón temprano",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Tomate: Mancha foliar por Septoria",
+        "predicted_condition": "Tomate: Tizón temprano",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Tomate: Virus del mosaico del tomate (TMV)",
+        "predicted_condition": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "error_count": 2,
+        "percentage_of_all_errors": 1.7391304347826086
+    },
+    {
+        "real_condition": "Manzana: Sarna del manzano",
+        "predicted_condition": "Tomate: Mancha bacteriana",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Manzana: Sarna del manzano",
+        "predicted_condition": "Manzana: Podredumbre negra",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Manzana: Sarna del manzano",
+        "predicted_condition": "Papa: Tizón temprano",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Manzana: Sarna del manzano",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Manzana: Roya del manzano",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Manzana: Roya del manzano",
+        "predicted_condition": "Tomate: Mancha foliar por Septoria",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Manzana: Saludable",
+        "predicted_condition": "Pimiento: Mancha bacteriana",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Manzana: Saludable",
+        "predicted_condition": "Vid (Uva): Saludable",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Manzana: Saludable",
+        "predicted_condition": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Maíz: Mancha foliar gris por Cercospora",
+        "predicted_condition": "Maíz: Saludable",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Maíz: Mancha foliar gris por Cercospora",
+        "predicted_condition": "Maíz: Tizón foliar norteño",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Maíz: Tizón foliar norteño",
+        "predicted_condition": "Maíz: Saludable",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Maíz: Tizón foliar norteño",
+        "predicted_condition": "Maíz: Roya común",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Vid (Uva): Podredumbre negra",
+        "predicted_condition": "Manzana: Sarna del manzano",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Vid (Uva): Podredumbre negra",
+        "predicted_condition": "Manzana: Roya del manzano",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Vid (Uva): Podredumbre negra",
+        "predicted_condition": "Vid (Uva): Tizón foliar por Isariopsis",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Vid (Uva): Saludable",
+        "predicted_condition": "Tomate: Mancha foliar por Septoria",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Pimiento: Mancha bacteriana",
+        "predicted_condition": "Tomate: Tizón temprano",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Pimiento: Mancha bacteriana",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Pimiento: Saludable",
+        "predicted_condition": "Maíz: Roya común",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Pimiento: Saludable",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Pimiento: Saludable",
+        "predicted_condition": "Maíz: Saludable",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Papa: Tizón temprano",
+        "predicted_condition": "Maíz: Roya común",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Papa: Tizón temprano",
+        "predicted_condition": "Pimiento: Mancha bacteriana",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Papa: Tizón tardío",
+        "predicted_condition": "Maíz: Roya común",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Mancha bacteriana",
+        "predicted_condition": "Maíz: Roya común",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Mancha bacteriana",
+        "predicted_condition": "Vid (Uva): Podredumbre negra",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Tizón temprano",
+        "predicted_condition": "Maíz: Tizón foliar norteño",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Tizón temprano",
+        "predicted_condition": "Manzana: Sarna del manzano",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Tizón tardío",
+        "predicted_condition": "Manzana: Sarna del manzano",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Moho foliar",
+        "predicted_condition": "Tomate: Tizón temprano",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Moho foliar",
+        "predicted_condition": "Maíz: Roya común",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Mancha foliar por Septoria",
+        "predicted_condition": "Tomate: Tizón tardío",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Mancha foliar por Septoria",
+        "predicted_condition": "Pimiento: Mancha bacteriana",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Mancha foliar por Septoria",
+        "predicted_condition": "Maíz: Roya común",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Mancha foliar por Septoria",
+        "predicted_condition": "Tomate: Mancha bacteriana",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Mancha foliar por Septoria",
+        "predicted_condition": "Tomate: Moho foliar",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "predicted_condition": "Maíz: Saludable",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Virus del mosaico del tomate (TMV)",
+        "predicted_condition": "Tomate: Tizón temprano",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Virus del mosaico del tomate (TMV)",
+        "predicted_condition": "Manzana: Sarna del manzano",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Virus del mosaico del tomate (TMV)",
+        "predicted_condition": "Pimiento: Mancha bacteriana",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Saludable",
+        "predicted_condition": "Tomate: Tizón temprano",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Saludable",
+        "predicted_condition": "Vid (Uva): Podredumbre negra",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    },
+    {
+        "real_condition": "Tomate: Saludable",
+        "predicted_condition": "Manzana: Sarna del manzano",
+        "error_count": 1,
+        "percentage_of_all_errors": 0.8695652173913043
+    }
+]

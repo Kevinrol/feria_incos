@@ -1,0 +1,91 @@
+{
+    "model_a_baseline": {
+        "plantvillage_top1": 91.28134846687317,
+        "plantvillage_loss": 0.2823407053947449,
+        "plantdoc_top1": 33.13953488372093,
+        "plantdoc_top3": 53.48837209302325,
+        "plantdoc_crop_acc": 69.18604651162791,
+        "plantdoc_samples": 172,
+        "domain_shift_gap": 58.14181358315224,
+        "per_crop": {
+            "Manzana": {
+                "exact_accuracy": 31.03448275862069,
+                "crop_accuracy": 48.275862068965516,
+                "samples": 29
+            },
+            "Maíz": {
+                "exact_accuracy": 48.0,
+                "crop_accuracy": 100.0,
+                "samples": 25
+            },
+            "Papa": {
+                "exact_accuracy": 13.333333333333334,
+                "crop_accuracy": 13.333333333333334,
+                "samples": 15
+            },
+            "Pimiento": {
+                "exact_accuracy": 56.25,
+                "crop_accuracy": 68.75,
+                "samples": 16
+            },
+            "Tomate": {
+                "exact_accuracy": 26.08695652173913,
+                "crop_accuracy": 78.26086956521739,
+                "samples": 69
+            },
+            "Vid (Uva)": {
+                "exact_accuracy": 38.88888888888889,
+                "crop_accuracy": 72.22222222222221,
+                "samples": 18
+            }
+        }
+    },
+    "model_b_mvp4": {
+        "plantvillage_top1": 94.98432874679565,
+        "plantvillage_loss": 0.14913824200630188,
+        "plantdoc_top1": 34.30232558139535,
+        "plantdoc_top3": 56.395348837209305,
+        "plantdoc_crop_acc": 70.34883720930233,
+        "plantdoc_samples": 172,
+        "domain_shift_gap": 60.6820031654003,
+        "per_crop": {
+            "Manzana": {
+                "exact_accuracy": 31.03448275862069,
+                "crop_accuracy": 34.48275862068966,
+                "samples": 29
+            },
+            "Maíz": {
+                "exact_accuracy": 40.0,
+                "crop_accuracy": 100.0,
+                "samples": 25
+            },
+            "Papa": {
+                "exact_accuracy": 6.666666666666667,
+                "crop_accuracy": 6.666666666666667,
+                "samples": 15
+            },
+            "Pimiento": {
+                "exact_accuracy": 43.75,
+                "crop_accuracy": 56.25,
+                "samples": 16
+            },
+            "Tomate": {
+                "exact_accuracy": 31.88405797101449,
+                "crop_accuracy": 89.85507246376811,
+                "samples": 69
+            },
+            "Vid (Uva)": {
+                "exact_accuracy": 55.55555555555556,
+                "crop_accuracy": 77.77777777777779,
+                "samples": 18
+            }
+        }
+    },
+    "delta": {
+        "plantvillage_top1_delta": 3.7029802799224854,
+        "plantdoc_top1_delta": 1.1627906976744242,
+        "plantdoc_top3_delta": 2.9069767441860535,
+        "plantdoc_crop_acc_delta": 1.1627906976744242,
+        "domain_shift_reduction": -2.540189582248061
+    }
+}

@@ -1,0 +1,3700 @@
+{
+    "total_images": 172,
+    "valid_crops_count": 33,
+    "localization_success_rate": 19.186046511627907,
+    "global_intent_to_diagnose": {
+        "raw_top1": 34.30232558139535,
+        "crop_top1": 34.30232558139535,
+        "delta_top1": 0.0,
+        "raw_top3": 56.395348837209305,
+        "crop_top3": 56.97674418604651,
+        "delta_top3": 0.581395348837205,
+        "raw_crop_acc": 70.34883720930233,
+        "crop_crop_acc": 70.93023255813954,
+        "delta_crop_acc": 0.581395348837205
+    },
+    "per_protocol_valid_crops_cohort": {
+        "valid_samples": 33,
+        "raw_top1_in_valid": 33.33333333333333,
+        "crop_top1_in_valid": 36.36363636363637,
+        "delta_valid_top1": 3.0303030303030303
+    },
+    "solanaceae_tracking": {
+        "papa_to_tomate_raw": 10,
+        "papa_to_tomate_crop": 10,
+        "papa_to_tomate_delta": 0,
+        "tomate_to_papa_raw": 0,
+        "tomate_to_papa_crop": 0,
+        "tomate_to_papa_delta": 0
+    },
+    "per_crop_breakdown": {
+        "Manzana": {
+            "samples": 29,
+            "raw_top1": 31.03448275862069,
+            "crop_top1": 27.586206896551722,
+            "delta_top1": -3.4482758620689653,
+            "raw_crop_acc": 34.48275862068966,
+            "crop_crop_acc": 31.03448275862069,
+            "delta_crop_acc": -3.4482758620689653
+        },
+        "Maíz": {
+            "samples": 25,
+            "raw_top1": 40.0,
+            "crop_top1": 40.0,
+            "delta_top1": 0.0,
+            "raw_crop_acc": 100.0,
+            "crop_crop_acc": 100.0,
+            "delta_crop_acc": 0.0
+        },
+        "Papa": {
+            "samples": 15,
+            "raw_top1": 6.666666666666667,
+            "crop_top1": 6.666666666666667,
+            "delta_top1": 0.0,
+            "raw_crop_acc": 6.666666666666667,
+            "crop_crop_acc": 6.666666666666667,
+            "delta_crop_acc": 0.0
+        },
+        "Pimiento": {
+            "samples": 16,
+            "raw_top1": 43.75,
+            "crop_top1": 56.25,
+            "delta_top1": 12.5,
+            "raw_crop_acc": 56.25,
+            "crop_crop_acc": 68.75,
+            "delta_crop_acc": 12.5
+        },
+        "Tomate": {
+            "samples": 69,
+            "raw_top1": 31.88405797101449,
+            "crop_top1": 30.434782608695656,
+            "delta_top1": -1.4492753623188406,
+            "raw_crop_acc": 89.85507246376811,
+            "crop_crop_acc": 89.85507246376811,
+            "delta_crop_acc": 0.0
+        },
+        "Vid (Uva)": {
+            "samples": 18,
+            "raw_top1": 55.55555555555556,
+            "crop_top1": 55.55555555555556,
+            "delta_top1": 0.0,
+            "raw_crop_acc": 77.77777777777779,
+            "crop_crop_acc": 77.77777777777779,
+            "delta_crop_acc": 0.0
+        }
+    },
+    "detailed_records": [
+        {
+            "filename": "052609%20Hartman%20Crabapple%20scab%20single%20leaf.JPG.jpg",
+            "crop": {
+                "predicted": "Manzana: Sarna del manzano",
+                "confidence": 74.5062484741211,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Manzana: Sarna del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Manzana: Sarna del manzano",
+                "confidence": 75.24050903320312,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "1b321015-6e33-4f18-aade-888f4383fe92.jpeg.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha bacteriana",
+                "confidence": 47.046607971191406,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Sarna del manzano",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.36928248621919585,
+            "raw": {
+                "predicted": "Tomate: Mancha bacteriana",
+                "confidence": 73.51274108886719,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "28-500x375.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha bacteriana",
+                "confidence": 85.98328399658203,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Sarna del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha bacteriana",
+                "confidence": 88.37757873535156,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "816.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 40.49525833129883,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Sarna del manzano",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.515702479338843,
+            "raw": {
+                "predicted": "Vid (Uva): Esca (Sarampión negro)",
+                "confidence": 61.569828033447266,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "apple%20scab%20leaf.jpg",
+            "crop": {
+                "predicted": "Manzana: Sarna del manzano",
+                "confidence": 72.063720703125,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Manzana: Sarna del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Manzana: Sarna del manzano",
+                "confidence": 79.51486206054688,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "apple%20scabnew.jpg",
+            "crop": {
+                "predicted": "Papa: Tizón temprano",
+                "confidence": 30.008298873901367,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Sarna del manzano",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.9081632653061225,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 27.05306053161621,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "apple-scab-5366820.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 58.463321685791016,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Sarna del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 56.05564880371094,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "apples_apple-scab_01_zoom.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 24.353864669799805,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Sarna del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 24.82476806640625,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "apples_apple-scab_02_thm.jpg",
+            "crop": {
+                "predicted": "Papa: Tizón temprano",
+                "confidence": 61.15888977050781,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Sarna del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Manzana: Sarna del manzano",
+                "confidence": 89.97733306884766,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "REGRESSION"
+        },
+        {
+            "filename": "apples_apple-scab_10_zoom.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Tizón foliar por Isariopsis",
+                "confidence": 55.94335174560547,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Sarna del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Tizón foliar por Isariopsis",
+                "confidence": 54.85519027709961,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "02.-Rust-2017-207u24s.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 45.683067321777344,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Roya del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 46.1540412902832,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "0605_Rust-induced_leafspot.jpg",
+            "crop": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 56.82310485839844,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Roya del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 49.014930725097656,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "185161-004-EAF28842.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Esca (Sarampión negro)",
+                "confidence": 89.97745513916016,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Roya del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Esca (Sarampión negro)",
+                "confidence": 85.7159652709961,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "2011-011.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Esca (Sarampión negro)",
+                "confidence": 91.27407836914062,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Roya del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Esca (Sarampión negro)",
+                "confidence": 91.31086730957031,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "20130519cedarapplerust.jpg",
+            "crop": {
+                "predicted": "Manzana: Roya del manzano",
+                "confidence": 40.34735870361328,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Manzana: Roya del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Manzana: Roya del manzano",
+                "confidence": 50.322349548339844,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "20130610_110514.jpg",
+            "crop": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 56.64860534667969,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Roya del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 48.28411102294922,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "20130802_111632.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Tizón foliar por Isariopsis",
+                "confidence": 42.32168960571289,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Roya del manzano",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.9375,
+            "raw": {
+                "predicted": "Vid (Uva): Tizón foliar por Isariopsis",
+                "confidence": 76.30341339111328,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "4-apple-rust2_19011_matt-bertone.jpg",
+            "crop": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 33.27235412597656,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Roya del manzano",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.7175,
+            "raw": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 46.49180603027344,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "9343310-small.jpg",
+            "crop": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 49.821937561035156,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Roya del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 46.49079132080078,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "99e886623c2080c22f6519b0e708c531.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Esca (Sarampión negro)",
+                "confidence": 47.91140365600586,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Roya del manzano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Esca (Sarampión negro)",
+                "confidence": 51.73675537109375,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "20180511_090912-14gtw8a-e1526047952754.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 74.47665405273438,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 74.04378509521484,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "20180511_091133-24l1vhg-e1526047988236.jpg",
+            "crop": {
+                "predicted": "Manzana: Saludable",
+                "confidence": 66.85594940185547,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Manzana: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Manzana: Saludable",
+                "confidence": 67.02223205566406,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "20180511_091252-1gy5xf5-e1526048000596.jpg",
+            "crop": {
+                "predicted": "Manzana: Sarna del manzano",
+                "confidence": 63.594703674316406,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Manzana: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Manzana: Sarna del manzano",
+                "confidence": 62.37470626831055,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "4120978-single-green-leaf-of-apple-tree.jpg",
+            "crop": {
+                "predicted": "Manzana: Saludable",
+                "confidence": 86.97404479980469,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Manzana: Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.772226430976431,
+            "raw": {
+                "predicted": "Manzana: Saludable",
+                "confidence": 86.90437316894531,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "apple-leaf-14319997.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 68.26960754394531,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.7541082426942733,
+            "raw": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 75.62916564941406,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "apple-leaf-9834637.jpg",
+            "crop": {
+                "predicted": "Manzana: Saludable",
+                "confidence": 43.34489059448242,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Manzana: Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.5729523350213005,
+            "raw": {
+                "predicted": "Manzana: Saludable",
+                "confidence": 82.2278060913086,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "apple-leaf-closeup-37636177.jpg",
+            "crop": {
+                "predicted": "Manzana: Saludable",
+                "confidence": 96.35623931884766,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Manzana: Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.8222618760549795,
+            "raw": {
+                "predicted": "Manzana: Saludable",
+                "confidence": 97.4044189453125,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "apple-leaf-isolated-white-background-56631026.jpg",
+            "crop": {
+                "predicted": "Manzana: Saludable",
+                "confidence": 85.87530517578125,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Manzana: Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.704371387283237,
+            "raw": {
+                "predicted": "Manzana: Saludable",
+                "confidence": 78.01705932617188,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "Apple-Leaf-Wallpaper-17.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha bacteriana",
+                "confidence": 21.371740341186523,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Manzana: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha bacteriana",
+                "confidence": 21.3070011138916,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "IMG_42231.jpg",
+            "crop": {
+                "predicted": "Maíz: Saludable",
+                "confidence": 79.65760803222656,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Mancha foliar gris por Cercospora",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Saludable",
+                "confidence": 78.05870056152344,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "rsz0803Figure6.jpg",
+            "crop": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 99.69755554199219,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Mancha foliar gris por Cercospora",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 99.38001251220703,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "strom5.jpg",
+            "crop": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 99.68478393554688,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Mancha foliar gris por Cercospora",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 99.60865783691406,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "0796.39maizerust.jpg",
+            "crop": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 85.03849029541016,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Roya común",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 84.00800323486328,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "0796.40comrust.jpg",
+            "crop": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 76.46656036376953,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Roya común",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 66.27521514892578,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "0796.47southrust.jpg",
+            "crop": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 98.53034973144531,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Roya común",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 98.10443878173828,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "0796.52srusttelia.jpg",
+            "crop": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 98.09590911865234,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Roya común",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 97.70732116699219,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "12-19striprustJIM.jpg",
+            "crop": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 94.21946716308594,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Roya común",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 93.1829833984375,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "1355.50commonrust.jpg",
+            "crop": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 98.32701873779297,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Roya común",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 98.71762084960938,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "2256-body-1501555581-1.jpg",
+            "crop": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 41.5518798828125,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Roya común",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 42.140350341796875,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "393.jpg",
+            "crop": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 58.560096740722656,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Roya común",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 50.1861572265625,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "5496239405_d95bdb97d1_z.jpg",
+            "crop": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 61.34637451171875,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Roya común",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 60.510475158691406,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "80104747.jpg",
+            "crop": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 98.0111312866211,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Roya común",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 98.24183654785156,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "02c.jpg",
+            "crop": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 80.69161224365234,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 82.14672088623047,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "0796.20graylssymt.jpg",
+            "crop": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 92.2918472290039,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 93.46794128417969,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "07c.jpg",
+            "crop": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 81.27912139892578,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 81.25650024414062,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "0c.jpg",
+            "crop": {
+                "predicted": "Maíz: Saludable",
+                "confidence": 71.2596206665039,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Saludable",
+                "confidence": 72.6463851928711,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "1321189.jpg",
+            "crop": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 86.09893035888672,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 85.9437484741211,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "160314_web.jpg",
+            "crop": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 98.57189178466797,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 98.804931640625,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "2013Corn_GrayLeafSpot_0815_0003.JPG.jpg",
+            "crop": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 74.74434661865234,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 75.4920654296875,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "2015070295153021.jpg",
+            "crop": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 98.3377456665039,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 98.38898468017578,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "Common%20Diseases%20Figure%201.JPG.jpg",
+            "crop": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 63.37074661254883,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 72.58395385742188,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "corn-disease-update-fig-3-gray-leaf-spot.jpg",
+            "crop": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 41.8702278137207,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Tizón foliar norteño",
+                "confidence": 41.54631423950195,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "corn-gray-leaf-spot-f4.jpg",
+            "crop": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 92.13954162597656,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 92.53205108642578,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "Corn-SCLB-2017-1.jpg",
+            "crop": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 61.15784454345703,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Maíz: Tizón foliar norteño",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Mancha foliar gris por Cercospora",
+                "confidence": 60.76797866821289,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "03gb.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 70.66890716552734,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Podredumbre negra",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 69.73098754882812,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "35589125035_662dd5b258_b.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Esca (Sarampión negro)",
+                "confidence": 60.51811981201172,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Podredumbre negra",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Esca (Sarampión negro)",
+                "confidence": 67.7248764038086,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "5-29black-rot-chardRR.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 97.91722869873047,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Podredumbre negra",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 0.9955555555555555,
+            "raw": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 97.48741149902344,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "Black%20rot%20on%20foliage.jpg",
+            "crop": {
+                "predicted": "Manzana: Roya del manzano",
+                "confidence": 20.45475196838379,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Vid (Uva): Podredumbre negra",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Manzana: Roya del manzano",
+                "confidence": 19.488271713256836,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "Black%20rot%20on%20foliage2.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 46.79216766357422,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Podredumbre negra",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 42.44251251220703,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "brleaf2_zoom.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 83.54378509521484,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Podredumbre negra",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 84.66918182373047,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "grape_F15a.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Esca (Sarampión negro)",
+                "confidence": 90.49053192138672,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Podredumbre negra",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.6609885931558935,
+            "raw": {
+                "predicted": "Vid (Uva): Esca (Sarampión negro)",
+                "confidence": 97.19093322753906,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "piano%20gully%20spray%20seed%20damage%2006%20%289%29.JPG.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 97.1871109008789,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Podredumbre negra",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 97.185791015625,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "0000.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 83.79621887207031,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.881237,
+            "raw": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 71.384033203125,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "730-grape-leaf-2560x1600-nature-wallpaper.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 36.95296859741211,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Vid (Uva): Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 36.72600555419922,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "depositphotos_3443387-stock-photo-the-green-grape-leaf-on.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 91.73808288574219,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 0.9791666666666666,
+            "raw": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 86.37952423095703,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "depositphotos_6898486-stock-photo-grape-leaves.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 87.31466674804688,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.5643931258810345,
+            "raw": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 91.26209259033203,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "DSCN7317.JPG.jpg",
+            "crop": {
+                "predicted": "Manzana: Sarna del manzano",
+                "confidence": 31.281116485595703,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Vid (Uva): Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Manzana: Sarna del manzano",
+                "confidence": 31.474903106689453,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "grape-leaf-14309623.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 84.59468078613281,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.7276552227903579,
+            "raw": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 81.75819396972656,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "grapes-leaves.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 95.99706268310547,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 95.70712280273438,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "grapevine-leaf-7466071.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 47.61416244506836,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.4981510696030794,
+            "raw": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 92.90010070800781,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "P1130286.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 21.73058319091797,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Vid (Uva): Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Saludable",
+                "confidence": 21.375768661499023,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "vitis-riparia-le-ahaines-b.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 64.70967864990234,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Vid (Uva): Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 61.92267608642578,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "00.jpg",
+            "crop": {
+                "predicted": "Papa: Tizón temprano",
+                "confidence": 20.695484161376953,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Pimiento: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 27.583154678344727,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "000.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 42.51419448852539,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Pimiento: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 37.95446014404297,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "01.jpg",
+            "crop": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 31.111038208007812,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Pimiento: Mancha bacteriana",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.30296922140561905,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 92.11161041259766,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "FIXED"
+        },
+        {
+            "filename": "Bacterial-spot-pepper2.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 66.07241821289062,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Pimiento: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 78.45697021484375,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "bacterial_leaf_spot_pepper_l.jpg",
+            "crop": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 97.64920806884766,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Pimiento: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 98.09606170654297,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "CMVpepperLeafShock-copy-50QUALITY-1ge8umw.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 41.09402847290039,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Pimiento: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 43.805850982666016,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "H5w92.jpg",
+            "crop": {
+                "predicted": "Pimiento: Saludable",
+                "confidence": 58.33014678955078,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Pimiento: Mancha bacteriana",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.9610906862745098,
+            "raw": {
+                "predicted": "Pimiento: Saludable",
+                "confidence": 50.53750228881836,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "pepper-spot.jpg",
+            "crop": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 67.72525024414062,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Pimiento: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 61.05629348754883,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "pepper_bacterial-spot_03_zoom.jpg",
+            "crop": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 70.34382629394531,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Pimiento: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 0.9933333333333333,
+            "raw": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 75.72895812988281,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "10148582-green-leaf-of-pepper.jpg",
+            "crop": {
+                "predicted": "Pimiento: Saludable",
+                "confidence": 99.84204864501953,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Pimiento: Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.843036941580756,
+            "raw": {
+                "predicted": "Pimiento: Saludable",
+                "confidence": 99.89364624023438,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "4825902504_5fa80b65b8_z.jpg",
+            "crop": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 63.90061950683594,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Pimiento: Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.8466661866359447,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 55.740081787109375,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "e33155.jpg",
+            "crop": {
+                "predicted": "Pimiento: Saludable",
+                "confidence": 46.50352096557617,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Pimiento: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 45.13447189331055,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "FIXED"
+        },
+        {
+            "filename": "GREEN%20BELL%20PLANT%20YELLOW%20LEAF.JPG.jpg",
+            "crop": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 71.82427978515625,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Pimiento: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 72.16680145263672,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "pepper_leaf.jpg",
+            "crop": {
+                "predicted": "Pimiento: Saludable",
+                "confidence": 94.95729064941406,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Pimiento: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Pimiento: Saludable",
+                "confidence": 92.70805358886719,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "RnGnC.jpg",
+            "crop": {
+                "predicted": "Pimiento: Saludable",
+                "confidence": 91.81478118896484,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Pimiento: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Pimiento: Saludable",
+                "confidence": 91.6478271484375,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "why-are-my-pepper-plants-yellow-yellow-pepper-plants-yellow-leaves-green-veins-pepper-plants-yellow-veins.jpg",
+            "crop": {
+                "predicted": "Pimiento: Saludable",
+                "confidence": 93.85870361328125,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Pimiento: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Pimiento: Saludable",
+                "confidence": 93.61204528808594,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "3023.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 95.57205963134766,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 95.97660827636719,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "backus-056-potato-blight.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 81.46102142333984,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 81.850830078125,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "early-blight-alternaria-alternata-leaf-spotting-on-potato-leaf-X91XJE.jpg",
+            "crop": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 75.6651840209961,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón temprano",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.7472894078398665,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 39.64961242675781,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "early-blight-or-target-spot-alternaria-solani-lesions-on-a-tomato-AXK6AY.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 98.55745697021484,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón temprano",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.6997193638914874,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.84661102294922,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "earlyblightpotato.jpg",
+            "crop": {
+                "predicted": "Papa: Tizón temprano",
+                "confidence": 39.376426696777344,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Papa: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Papa: Tizón temprano",
+                "confidence": 46.9587516784668,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "potato-blight-phytophthora-infestans-close-up-of-upper-surface-of-BMMRXC.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 52.17795944213867,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón temprano",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.6581026713871903,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 97.43598937988281,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "potato-early-blight-alternaria-alternata-lesion-on-a-potato-leaf-a1w1em.jpg",
+            "crop": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 85.4115219116211,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 90.15283203125,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "potatobd001.jpg",
+            "crop": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 42.23054504394531,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 63.445682525634766,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "20090710-lateblight.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.95265197753906,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón tardío",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.97,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.96961212158203,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "2540_600.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 97.6263198852539,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 97.3002700805664,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "5816740026_d42ef24413_Phytophthora-Infestans.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.49039459228516,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.3921127319336,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "B2750109-Late_blight_on_a_potato_plant-SPL.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 84.80548095703125,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 84.93789672851562,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "irish-blight-symptoms-on-potato-leaves-atmf8b.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 84.97220611572266,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 83.61539459228516,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "LateBlight04.jpg",
+            "crop": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 48.933868408203125,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 57.89362716674805,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "potato-late-blight.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.3194580078125,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Papa: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.28086853027344,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "%2320+Bacterial+Spot+and+Speck.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 98.10043334960938,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 98.1266098022461,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "07.17.18-Common_Tomato_Diseases_Canker-258x300.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 90.12730407714844,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 90.34207153320312,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "bact-spot-fig-1.jpg",
+            "crop": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 54.12751007080078,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Tomate: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 53.767906188964844,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "Bacterial_spots563.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 41.116695404052734,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Tomate: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 0.9833333333333333,
+            "raw": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 58.608455657958984,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "Tom_Bact3.jpg",
+            "crop": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 96.81961822509766,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Tomate: Mancha bacteriana",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.8325,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 82.85948944091797,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "Tom_Bact7.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 33.72440719604492,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 34.924835205078125,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "Tomato%2BBacterial%2BSpot%2Bon%2BLeaves.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 85.14842987060547,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 88.22111511230469,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "tomato_bacterial-speck_01_zoom.jpg",
+            "crop": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 95.60670471191406,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Tomate: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Vid (Uva): Podredumbre negra",
+                "confidence": 95.2017593383789,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "tomato_V8.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha bacteriana",
+                "confidence": 95.7222900390625,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha bacteriana",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha bacteriana",
+                "confidence": 96.67333221435547,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "039b47d574bc4bb8a14259a1cd96a741.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 94.25531768798828,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón temprano",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.5397608654393623,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 98.50405883789062,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "100983448.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 97.29701232910156,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 97.28561401367188,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "1234080-Early-Blight.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 96.92558288574219,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 96.5412826538086,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "bugs-and-blight-061.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 40.89926528930664,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 39.44696044921875,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "dscn3175.jpg",
+            "crop": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 53.962398529052734,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Tomate: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Pimiento: Mancha bacteriana",
+                "confidence": 54.02350616455078,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "early_blight1-150x150.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 91.26519775390625,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 90.47836303710938,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "earlyblight21_.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 42.42622375488281,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 42.35877227783203,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "Shoemaker_7068.JPG.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 90.94850158691406,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 49.69404983520508,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "tomato_early-blight_01_zoom.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 91.92816925048828,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón temprano",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 94.0777359008789,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "110822-206-Tomato-blight.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 97.24485778808594,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 96.8489761352539,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "18c.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.43009948730469,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.45259857177734,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "636368370164094909-late-blight-15-.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.11864471435547,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.1281967163086,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "70.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 66.78473663330078,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 67.8338623046875,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "dsc_8148cs.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 92.80271911621094,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 92.9389877319336,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "E%29Tomato-late-blight-foliar.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 73.8187026977539,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 71.38282012939453,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "image.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 90.03341674804688,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 89.81414031982422,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "IMG_5808.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 95.3477783203125,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 95.44866943359375,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "late_blight_tomato_leaf_spore1x1200.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 81.19865417480469,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón tardío",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.9781181619256017,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 89.3863296508789,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "LateBlt09_06.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 82.74932861328125,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Tizón tardío",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 82.66826629638672,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "49%20Leafmold%20Bottom.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 87.9794692993164,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Moho foliar",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 89.2606430053711,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "50%20Leafmold%20Top.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 43.12220001220703,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Moho foliar",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 35.14179992675781,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "BIGSD.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 56.59740447998047,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Moho foliar",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.5572946859903382,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 43.16606521606445,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "black_leaf_mold_in_zina_tina.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 65.53483581542969,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Moho foliar",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 64.26897430419922,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "dscn6689.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 59.968353271484375,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Moho foliar",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 59.201820373535156,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "fungus-univ-of-minnesoeta.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 49.88053894042969,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Moho foliar",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 51.59247589111328,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "0.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 80.62997436523438,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha foliar por Septoria",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.4352314814814815,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.56319427490234,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "2septoria-tomato.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 72.25757598876953,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha foliar por Septoria",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 71.81803894042969,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "2STEM.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 98.529296875,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha foliar por Septoria",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.8119891008174387,
+            "raw": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 89.92020416259766,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "55830b60a7cf2.image.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 61.34532165527344,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha foliar por Septoria",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 59.450035095214844,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "6134794031202304.jpeg.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 36.824790954589844,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha foliar por Septoria",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 34.99992752075195,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "636227737977191231-septoria-leaf-spot-VT.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 46.68604278564453,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha foliar por Septoria",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 48.23983383178711,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "REGRESSION"
+        },
+        {
+            "filename": "6447731_orig.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 83.41777801513672,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha foliar por Septoria",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 82.88679504394531,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "7-17-Photo3_Septoria-MARY.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 48.50368881225586,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha foliar por Septoria",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 45.25956344604492,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "early-blight-septoria-ls-fig-3.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha bacteriana",
+                "confidence": 61.04821014404297,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha foliar por Septoria",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha bacteriana",
+                "confidence": 60.14906311035156,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "RARZ4.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 55.52336502075195,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha foliar por Septoria",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 55.78654861450195,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "sept4disease-019.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 96.27777862548828,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Mancha foliar por Septoria",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 96.19182586669922,
+                "top1_correct": true,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "ROBUST"
+        },
+        {
+            "filename": "11-40580_5.jpg",
+            "crop": {
+                "predicted": "Maíz: Saludable",
+                "confidence": 71.70768737792969,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Saludable",
+                "confidence": 67.17952728271484,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "17fc47.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 50.11198043823242,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 50.91769790649414,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "8226402877_9abf151b5b_b.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 84.77984619140625,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 85.66650390625,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "fwa2013313115151.jpg",
+            "crop": {
+                "predicted": "Tomate: Moho foliar",
+                "confidence": 28.805461883544922,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Moho foliar",
+                "confidence": 33.8154296875,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "glyphosate.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 69.43379974365234,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 69.62480163574219,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "tylcv-seminar-1-638.jpg",
+            "crop": {
+                "predicted": "Maíz: Saludable",
+                "confidence": 53.19132995605469,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.6701461377870563,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 88.24535369873047,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "9511.img.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 53.235626220703125,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 52.93072509765625,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "D%29AlfMov.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 95.5145034790039,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 95.2213363647461,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "everystockphoto-21099455-l.jpg",
+            "crop": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 42.91077423095703,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Mancha foliar por Septoria",
+                "confidence": 41.05152893066406,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "ill-tomato-of-tomato-mosaic-virus-DBE17N.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 97.98384857177734,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.9560669456066946,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.15103912353516,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "page_2.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 72.68354034423828,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.8049095607235142,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 92.373046875,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "tmv-tomato-34.jpg",
+            "crop": {
+                "predicted": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+                "confidence": 51.61124038696289,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+                "confidence": 51.98982238769531,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "tmv-tomato-9.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.36107635498047,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 99.38304138183594,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "toma_TMV.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 74.77430725097656,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 0.9977949283351709,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 75.56809997558594,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "Tomato-Mosaic-1wdr2jx-300x225.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 33.95310974121094,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 28.314865112304688,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "tomato_virus_04_zoom.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 33.34667205810547,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Maíz: Roya común",
+                "confidence": 31.945777893066406,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": false
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "1684.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 80.265380859375,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 79.19290161132812,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "2013-08-20-06.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 96.20169067382812,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 96.32196807861328,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "90e2c0.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 28.310596466064453,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Saludable",
+            "localization_status": "VALID_CROP",
+            "bbox_area_ratio": 0.915,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 37.18343734741211,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "DSCN1015.JPG.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 98.01881408691406,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 98.03694915771484,
+                "top1_correct": false,
+                "top3_correct": true,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "IMG_1246.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 83.10646057128906,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 83.73825073242188,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "main-qimg-d9c2a93f60568485c989670d9bbf703b.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 92.36162567138672,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 0.9567315298212308,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 95.2276611328125,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "Tomato59.JPG.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 36.01506042480469,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón temprano",
+                "confidence": 35.49151611328125,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        },
+        {
+            "filename": "Tomato_leaf.jpg",
+            "crop": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 95.12786102294922,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "ground_truth": "Tomate: Saludable",
+            "localization_status": "LOW_CONFIDENCE",
+            "bbox_area_ratio": 1.0,
+            "raw": {
+                "predicted": "Tomate: Tizón tardío",
+                "confidence": 95.41100311279297,
+                "top1_correct": false,
+                "top3_correct": false,
+                "crop_correct": true
+            },
+            "category": "PERSISTENT"
+        }
+    ]
+}

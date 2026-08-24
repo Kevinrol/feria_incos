@@ -1,0 +1,2754 @@
+[
+    {
+        "filename": "052609%20Hartman%20Crabapple%20scab%20single%20leaf.JPG.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple Scab Leaf\\052609%20Hartman%20Crabapple%20scab%20single%20leaf.JPG.jpg",
+        "crop_path": "results/mvp5_crops/manzana/052609%20Hartman%20Crabapple%20scab%20single%20leaf.JPG.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            496,
+            348
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9951161011659301
+    },
+    {
+        "filename": "1b321015-6e33-4f18-aade-888f4383fe92.jpeg.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple Scab Leaf\\1b321015-6e33-4f18-aade-888f4383fe92.jpeg.jpg",
+        "crop_path": "results/mvp5_crops/manzana/1b321015-6e33-4f18-aade-888f4383fe92.jpeg.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            203,
+            99,
+            425,
+            343
+        ],
+        "bbox_area_ratio": 0.36928248621919585,
+        "confidence": 0.515626822122063
+    },
+    {
+        "filename": "28-500x375.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple Scab Leaf\\28-500x375.jpg",
+        "crop_path": "results/mvp5_crops/manzana/28-500x375.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            500,
+            375
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8978613332854475
+    },
+    {
+        "filename": "816.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple Scab Leaf\\816.jpg",
+        "crop_path": "results/mvp5_crops/manzana/816.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            48,
+            6,
+            234,
+            200
+        ],
+        "bbox_area_ratio": 0.515702479338843,
+        "confidence": 0.5205982904870516
+    },
+    {
+        "filename": "apple%20scab%20leaf.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple Scab Leaf\\apple%20scab%20leaf.jpg",
+        "crop_path": "results/mvp5_crops/manzana/apple%20scab%20leaf.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            239,
+            398
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.993313849478216
+    },
+    {
+        "filename": "apple%20scabnew.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple Scab Leaf\\apple%20scabnew.jpg",
+        "crop_path": "results/mvp5_crops/manzana/apple%20scabnew.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            12,
+            490,
+            356
+        ],
+        "bbox_area_ratio": 0.9081632653061225,
+        "confidence": 0.6357859435544723
+    },
+    {
+        "filename": "apple-scab-5366820.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple Scab Leaf\\apple-scab-5366820.jpg",
+        "crop_path": "results/mvp5_crops/manzana/apple-scab-5366820.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            460,
+            373
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8750233126894147
+    },
+    {
+        "filename": "apples_apple-scab_01_zoom.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple Scab Leaf\\apples_apple-scab_01_zoom.jpg",
+        "crop_path": "results/mvp5_crops/manzana/apples_apple-scab_01_zoom.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            900,
+            692
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.79120664738614
+    },
+    {
+        "filename": "apples_apple-scab_02_thm.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple Scab Leaf\\apples_apple-scab_02_thm.jpg",
+        "crop_path": "results/mvp5_crops/manzana/apples_apple-scab_02_thm.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            115,
+            85
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9796419427318241
+    },
+    {
+        "filename": "apples_apple-scab_10_zoom.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple Scab Leaf\\apples_apple-scab_10_zoom.jpg",
+        "crop_path": "results/mvp5_crops/manzana/apples_apple-scab_10_zoom.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            900,
+            675
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7690995884647063
+    },
+    {
+        "filename": "02.-Rust-2017-207u24s.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple rust leaf\\02.-Rust-2017-207u24s.jpg",
+        "crop_path": "results/mvp5_crops/manzana/02.-Rust-2017-207u24s.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            5312,
+            2988
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9994771379689191
+    },
+    {
+        "filename": "0605_Rust-induced_leafspot.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple rust leaf\\0605_Rust-induced_leafspot.jpg",
+        "crop_path": "results/mvp5_crops/manzana/0605_Rust-induced_leafspot.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            341,
+            188
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9482513881343589
+    },
+    {
+        "filename": "185161-004-EAF28842.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple rust leaf\\185161-004-EAF28842.jpg",
+        "crop_path": "results/mvp5_crops/manzana/185161-004-EAF28842.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            424,
+            450
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.90147274628399
+    },
+    {
+        "filename": "2011-011.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple rust leaf\\2011-011.jpg",
+        "crop_path": "results/mvp5_crops/manzana/2011-011.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            500,
+            375
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9538373332824621
+    },
+    {
+        "filename": "20130519cedarapplerust.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple rust leaf\\20130519cedarapplerust.jpg",
+        "crop_path": "results/mvp5_crops/manzana/20130519cedarapplerust.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            575,
+            431
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9221446584919946
+    },
+    {
+        "filename": "20130610_110514.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple rust leaf\\20130610_110514.jpg",
+        "crop_path": "results/mvp5_crops/manzana/20130610_110514.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            2448,
+            3264
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9992852558698887
+    },
+    {
+        "filename": "20130802_111632.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple rust leaf\\20130802_111632.jpg",
+        "crop_path": "results/mvp5_crops/manzana/20130802_111632.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            0,
+            3264,
+            2295
+        ],
+        "bbox_area_ratio": 0.9375,
+        "confidence": 0.6972501895629122
+    },
+    {
+        "filename": "4-apple-rust2_19011_matt-bertone.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple rust leaf\\4-apple-rust2_19011_matt-bertone.jpg",
+        "crop_path": "results/mvp5_crops/manzana/4-apple-rust2_19011_matt-bertone.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            51,
+            600,
+            287
+        ],
+        "bbox_area_ratio": 0.7175,
+        "confidence": 0.5297212543246388
+    },
+    {
+        "filename": "9343310-small.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple rust leaf\\9343310-small.jpg",
+        "crop_path": "results/mvp5_crops/manzana/9343310-small.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            155,
+            206
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9668650169223724
+    },
+    {
+        "filename": "99e886623c2080c22f6519b0e708c531.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "original_path": "PlantDoc-Dataset\\test\\Apple rust leaf\\99e886623c2080c22f6519b0e708c531.jpg",
+        "crop_path": "results/mvp5_crops/manzana/99e886623c2080c22f6519b0e708c531.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            425,
+            284
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9941342169847445
+    },
+    {
+        "filename": "20180511_090912-14gtw8a-e1526047952754.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Apple leaf\\20180511_090912-14gtw8a-e1526047952754.jpg",
+        "crop_path": "results/mvp5_crops/manzana/20180511_090912-14gtw8a-e1526047952754.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            2988,
+            5312
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7564042565840946
+    },
+    {
+        "filename": "20180511_091133-24l1vhg-e1526047988236.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Apple leaf\\20180511_091133-24l1vhg-e1526047988236.jpg",
+        "crop_path": "results/mvp5_crops/manzana/20180511_091133-24l1vhg-e1526047988236.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            2988,
+            5312
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7161006601703525
+    },
+    {
+        "filename": "20180511_091252-1gy5xf5-e1526048000596.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Apple leaf\\20180511_091252-1gy5xf5-e1526048000596.jpg",
+        "crop_path": "results/mvp5_crops/manzana/20180511_091252-1gy5xf5-e1526048000596.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            2988,
+            5312
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7217063850276093
+    },
+    {
+        "filename": "4120978-single-green-leaf-of-apple-tree.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Apple leaf\\4120978-single-green-leaf-of-apple-tree.jpg",
+        "crop_path": "results/mvp5_crops/manzana/4120978-single-green-leaf-of-apple-tree.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            42,
+            62,
+            731,
+            502
+        ],
+        "bbox_area_ratio": 0.772226430976431,
+        "confidence": 0.5490227870856104
+    },
+    {
+        "filename": "apple-leaf-14319997.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Apple leaf\\apple-leaf-14319997.jpg",
+        "crop_path": "results/mvp5_crops/manzana/apple-leaf-14319997.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            49,
+            73,
+            1251,
+            920
+        ],
+        "bbox_area_ratio": 0.7541082426942733,
+        "confidence": 0.5111137177170341
+    },
+    {
+        "filename": "apple-leaf-9834637.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Apple leaf\\apple-leaf-9834637.jpg",
+        "crop_path": "results/mvp5_crops/manzana/apple-leaf-9834637.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            56,
+            142,
+            1190,
+            599
+        ],
+        "bbox_area_ratio": 0.5729523350213005,
+        "confidence": 0.47329863497322855
+    },
+    {
+        "filename": "apple-leaf-closeup-37636177.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Apple leaf\\apple-leaf-closeup-37636177.jpg",
+        "crop_path": "results/mvp5_crops/manzana/apple-leaf-closeup-37636177.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            92,
+            14,
+            1184,
+            864
+        ],
+        "bbox_area_ratio": 0.8222618760549795,
+        "confidence": 0.4936283940141936
+    },
+    {
+        "filename": "apple-leaf-isolated-white-background-56631026.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Apple leaf\\apple-leaf-isolated-white-background-56631026.jpg",
+        "crop_path": "results/mvp5_crops/manzana/apple-leaf-isolated-white-background-56631026.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            97,
+            52,
+            670,
+            582
+        ],
+        "bbox_area_ratio": 0.704371387283237,
+        "confidence": 0.5667730932818696
+    },
+    {
+        "filename": "Apple-Leaf-Wallpaper-17.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Apple leaf\\Apple-Leaf-Wallpaper-17.jpg",
+        "crop_path": "results/mvp5_crops/manzana/Apple-Leaf-Wallpaper-17.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            3840,
+            2160
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9992767409324372
+    },
+    {
+        "filename": "IMG_42231.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Mancha foliar gris por Cercospora",
+        "original_path": "PlantDoc-Dataset\\test\\Corn Gray leaf spot\\IMG_42231.jpg",
+        "crop_path": "results/mvp5_crops/maiz/IMG_42231.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            3264,
+            2448
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9854971770660805
+    },
+    {
+        "filename": "rsz0803Figure6.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Mancha foliar gris por Cercospora",
+        "original_path": "PlantDoc-Dataset\\test\\Corn Gray leaf spot\\rsz0803Figure6.jpg",
+        "crop_path": "results/mvp5_crops/maiz/rsz0803Figure6.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            350,
+            230
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9928074532928189
+    },
+    {
+        "filename": "strom5.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Mancha foliar gris por Cercospora",
+        "original_path": "PlantDoc-Dataset\\test\\Corn Gray leaf spot\\strom5.jpg",
+        "crop_path": "results/mvp5_crops/maiz/strom5.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            480,
+            320
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9296777343144742
+    },
+    {
+        "filename": "0796.39maizerust.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "original_path": "PlantDoc-Dataset\\test\\Corn rust leaf\\0796.39maizerust.jpg",
+        "crop_path": "results/mvp5_crops/maiz/0796.39maizerust.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            432,
+            287
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9690443927467218
+    },
+    {
+        "filename": "0796.40comrust.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "original_path": "PlantDoc-Dataset\\test\\Corn rust leaf\\0796.40comrust.jpg",
+        "crop_path": "results/mvp5_crops/maiz/0796.40comrust.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            432,
+            268
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9939624791844629
+    },
+    {
+        "filename": "0796.47southrust.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "original_path": "PlantDoc-Dataset\\test\\Corn rust leaf\\0796.47southrust.jpg",
+        "crop_path": "results/mvp5_crops/maiz/0796.47southrust.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            432,
+            252
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7903531010443899
+    },
+    {
+        "filename": "0796.52srusttelia.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "original_path": "PlantDoc-Dataset\\test\\Corn rust leaf\\0796.52srusttelia.jpg",
+        "crop_path": "results/mvp5_crops/maiz/0796.52srusttelia.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            432,
+            309
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9806012524735856
+    },
+    {
+        "filename": "12-19striprustJIM.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "original_path": "PlantDoc-Dataset\\test\\Corn rust leaf\\12-19striprustJIM.jpg",
+        "crop_path": "results/mvp5_crops/maiz/12-19striprustJIM.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            185,
+            500
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8340756755855053
+    },
+    {
+        "filename": "1355.50commonrust.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "original_path": "PlantDoc-Dataset\\test\\Corn rust leaf\\1355.50commonrust.jpg",
+        "crop_path": "results/mvp5_crops/maiz/1355.50commonrust.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            288,
+            419
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9898940929967271
+    },
+    {
+        "filename": "2256-body-1501555581-1.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "original_path": "PlantDoc-Dataset\\test\\Corn rust leaf\\2256-body-1501555581-1.jpg",
+        "crop_path": "results/mvp5_crops/maiz/2256-body-1501555581-1.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            3264,
+            2448
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9840868996687672
+    },
+    {
+        "filename": "393.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "original_path": "PlantDoc-Dataset\\test\\Corn rust leaf\\393.jpg",
+        "crop_path": "results/mvp5_crops/maiz/393.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            590,
+            393
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9953486867212081
+    },
+    {
+        "filename": "5496239405_d95bdb97d1_z.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "original_path": "PlantDoc-Dataset\\test\\Corn rust leaf\\5496239405_d95bdb97d1_z.jpg",
+        "crop_path": "results/mvp5_crops/maiz/5496239405_d95bdb97d1_z.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            640,
+            480
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9963574218425665
+    },
+    {
+        "filename": "80104747.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "original_path": "PlantDoc-Dataset\\test\\Corn rust leaf\\80104747.jpg",
+        "crop_path": "results/mvp5_crops/maiz/80104747.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            613,
+            700
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8371335352869462
+    },
+    {
+        "filename": "02c.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\02c.jpg",
+        "crop_path": "results/mvp5_crops/maiz/02c.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            960,
+            540
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9503211805372237
+    },
+    {
+        "filename": "0796.20graylssymt.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\0796.20graylssymt.jpg",
+        "crop_path": "results/mvp5_crops/maiz/0796.20graylssymt.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            432,
+            350
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9906084655429492
+    },
+    {
+        "filename": "07c.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\07c.jpg",
+        "crop_path": "results/mvp5_crops/maiz/07c.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            675,
+            414
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9922920021115658
+    },
+    {
+        "filename": "0c.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\0c.jpg",
+        "crop_path": "results/mvp5_crops/maiz/0c.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1170,
+            501
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9971509971339859
+    },
+    {
+        "filename": "1321189.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\1321189.jpg",
+        "crop_path": "results/mvp5_crops/maiz/1321189.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            590,
+            200
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.918627118566218
+    },
+    {
+        "filename": "160314_web.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\160314_web.jpg",
+        "crop_path": "results/mvp5_crops/maiz/160314_web.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            400,
+            533
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9956285177769405
+    },
+    {
+        "filename": "2013Corn_GrayLeafSpot_0815_0003.JPG.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\2013Corn_GrayLeafSpot_0815_0003.JPG.jpg",
+        "crop_path": "results/mvp5_crops/maiz/2013Corn_GrayLeafSpot_0815_0003.JPG.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1600,
+            1200
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.6599098958298962
+    },
+    {
+        "filename": "2015070295153021.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\2015070295153021.jpg",
+        "crop_path": "results/mvp5_crops/maiz/2015070295153021.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1224,
+            1632
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8040522275046253
+    },
+    {
+        "filename": "Common%20Diseases%20Figure%201.JPG.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\Common%20Diseases%20Figure%201.JPG.jpg",
+        "crop_path": "results/mvp5_crops/maiz/Common%20Diseases%20Figure%201.JPG.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            188,
+            317
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7759916771635694
+    },
+    {
+        "filename": "corn-disease-update-fig-3-gray-leaf-spot.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\corn-disease-update-fig-3-gray-leaf-spot.jpg",
+        "crop_path": "results/mvp5_crops/maiz/corn-disease-update-fig-3-gray-leaf-spot.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1500,
+            1125
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9984450370311203
+    },
+    {
+        "filename": "corn-gray-leaf-spot-f4.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\corn-gray-leaf-spot-f4.jpg",
+        "crop_path": "results/mvp5_crops/maiz/corn-gray-leaf-spot-f4.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            672,
+            832
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9927401699685079
+    },
+    {
+        "filename": "Corn-SCLB-2017-1.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "original_path": "PlantDoc-Dataset\\test\\Corn leaf blight\\Corn-SCLB-2017-1.jpg",
+        "crop_path": "results/mvp5_crops/maiz/Corn-SCLB-2017-1.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            3456,
+            5184
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.6556399833351108
+    },
+    {
+        "filename": "03gb.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf black rot\\03gb.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/03gb.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            479,
+            302
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9755803342383014
+    },
+    {
+        "filename": "35589125035_662dd5b258_b.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf black rot\\35589125035_662dd5b258_b.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/35589125035_662dd5b258_b.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            574,
+            765
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9969529274897644
+    },
+    {
+        "filename": "5-29black-rot-chardRR.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf black rot\\5-29black-rot-chardRR.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/5-29black-rot-chardRR.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            448,
+            302
+        ],
+        "bbox_area_ratio": 0.9955555555555555,
+        "confidence": 0.6383928570956723
+    },
+    {
+        "filename": "Black%20rot%20on%20foliage.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf black rot\\Black%20rot%20on%20foliage.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/Black%20rot%20on%20foliage.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1060,
+            795
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9961314821289174
+    },
+    {
+        "filename": "Black%20rot%20on%20foliage2.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf black rot\\Black%20rot%20on%20foliage2.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/Black%20rot%20on%20foliage2.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1060,
+            795
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9596167081884465
+    },
+    {
+        "filename": "brleaf2_zoom.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf black rot\\brleaf2_zoom.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/brleaf2_zoom.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            900,
+            675
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.6228419752983895
+    },
+    {
+        "filename": "grape_F15a.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf black rot\\grape_F15a.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/grape_F15a.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            35,
+            11,
+            287,
+            212
+        ],
+        "bbox_area_ratio": 0.6609885931558935,
+        "confidence": 0.4975593319805471
+    },
+    {
+        "filename": "piano%20gully%20spray%20seed%20damage%2006%20%289%29.JPG.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf black rot\\piano%20gully%20spray%20seed%20damage%2006%20%289%29.JPG.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/piano%20gully%20spray%20seed%20damage%2006%20%289%29.JPG.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1600,
+            1200
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7204151041629144
+    },
+    {
+        "filename": "0000.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf\\0000.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/0000.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            4,
+            961,
+            917
+        ],
+        "bbox_area_ratio": 0.881237,
+        "confidence": 0.5028040129896634
+    },
+    {
+        "filename": "730-grape-leaf-2560x1600-nature-wallpaper.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf\\730-grape-leaf-2560x1600-nature-wallpaper.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/730-grape-leaf-2560x1600-nature-wallpaper.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            2560,
+            1600
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.4360883789051853
+    },
+    {
+        "filename": "depositphotos_3443387-stock-photo-the-green-grape-leaf-on.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf\\depositphotos_3443387-stock-photo-the-green-grape-leaf-on.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/depositphotos_3443387-stock-photo-the-green-grape-leaf-on.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            16,
+            1024,
+            752
+        ],
+        "bbox_area_ratio": 0.9791666666666666,
+        "confidence": 0.2410187416856999
+    },
+    {
+        "filename": "depositphotos_6898486-stock-photo-grape-leaves.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf\\depositphotos_6898486-stock-photo-grape-leaves.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/depositphotos_6898486-stock-photo-grape-leaves.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            218,
+            0,
+            623,
+            696
+        ],
+        "bbox_area_ratio": 0.5643931258810345,
+        "confidence": 0.5220660135301455
+    },
+    {
+        "filename": "DSCN7317.JPG.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf\\DSCN7317.JPG.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/DSCN7317.JPG.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1530,
+            1600
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.958374387250987
+    },
+    {
+        "filename": "grape-leaf-14309623.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf\\grape-leaf-14309623.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/grape-leaf-14309623.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            78,
+            76,
+            1132,
+            1144
+        ],
+        "bbox_area_ratio": 0.7276552227903579,
+        "confidence": 0.5449174831310315
+    },
+    {
+        "filename": "grapes-leaves.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf\\grapes-leaves.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/grapes-leaves.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1024,
+            768
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9977226257197352
+    },
+    {
+        "filename": "grapevine-leaf-7466071.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf\\grapevine-leaf-7466071.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/grapevine-leaf-7466071.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            131,
+            286,
+            885,
+            892
+        ],
+        "bbox_area_ratio": 0.4981510696030794,
+        "confidence": 0.511056851859453
+    },
+    {
+        "filename": "P1130286.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf\\P1130286.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/P1130286.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1536,
+            2048
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.877182006833149
+    },
+    {
+        "filename": "vitis-riparia-le-ahaines-b.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\grape leaf\\vitis-riparia-le-ahaines-b.jpg",
+        "crop_path": "results/mvp5_crops/vid_uva/vitis-riparia-le-ahaines-b.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1000,
+            812
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9964624384113737
+    },
+    {
+        "filename": "00.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf spot\\00.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/00.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            480,
+            360
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9537876156855447
+    },
+    {
+        "filename": "000.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf spot\\000.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/000.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1024,
+            768
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8294296264542971
+    },
+    {
+        "filename": "01.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf spot\\01.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/01.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            315,
+            138,
+            316,
+            293
+        ],
+        "bbox_area_ratio": 0.30296922140561905,
+        "confidence": 0.80764245897874
+    },
+    {
+        "filename": "Bacterial-spot-pepper2.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf spot\\Bacterial-spot-pepper2.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/Bacterial-spot-pepper2.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            221,
+            166
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9161533007370241
+    },
+    {
+        "filename": "bacterial_leaf_spot_pepper_l.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf spot\\bacterial_leaf_spot_pepper_l.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/bacterial_leaf_spot_pepper_l.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            400,
+            300
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9919208332506733
+    },
+    {
+        "filename": "CMVpepperLeafShock-copy-50QUALITY-1ge8umw.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf spot\\CMVpepperLeafShock-copy-50QUALITY-1ge8umw.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/CMVpepperLeafShock-copy-50QUALITY-1ge8umw.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            667,
+            500
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9965037480960568
+    },
+    {
+        "filename": "H5w92.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf spot\\H5w92.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/H5w92.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            127,
+            2448,
+            3137
+        ],
+        "bbox_area_ratio": 0.9610906862745098,
+        "confidence": 0.639626123267516
+    },
+    {
+        "filename": "pepper-spot.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf spot\\pepper-spot.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/pepper-spot.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            351,
+            209
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7947559262265358
+    },
+    {
+        "filename": "pepper_bacterial-spot_03_zoom.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf spot\\pepper_bacterial-spot_03_zoom.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/pepper_bacterial-spot_03_zoom.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            3,
+            0,
+            894,
+            599
+        ],
+        "bbox_area_ratio": 0.9933333333333333,
+        "confidence": 0.528789593384037
+    },
+    {
+        "filename": "10148582-green-leaf-of-pepper.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf\\10148582-green-leaf-of-pepper.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/10148582-green-leaf-of-pepper.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            38,
+            35,
+            742,
+            529
+        ],
+        "bbox_area_ratio": 0.843036941580756,
+        "confidence": 0.5410095842600592
+    },
+    {
+        "filename": "4825902504_5fa80b65b8_z.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf\\4825902504_5fa80b65b8_z.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/4825902504_5fa80b65b8_z.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            33,
+            603,
+            390
+        ],
+        "bbox_area_ratio": 0.8466661866359447,
+        "confidence": 0.571701322423281
+    },
+    {
+        "filename": "e33155.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf\\e33155.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/e33155.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            600,
+            800
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9960135416459164
+    },
+    {
+        "filename": "GREEN%20BELL%20PLANT%20YELLOW%20LEAF.JPG.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf\\GREEN%20BELL%20PLANT%20YELLOW%20LEAF.JPG.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/GREEN%20BELL%20PLANT%20YELLOW%20LEAF.JPG.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            800,
+            600
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8727135416484851
+    },
+    {
+        "filename": "pepper_leaf.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf\\pepper_leaf.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/pepper_leaf.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            300,
+            400
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9941749999171521
+    },
+    {
+        "filename": "RnGnC.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf\\RnGnC.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/RnGnC.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            2147,
+            1432
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8122778503433
+    },
+    {
+        "filename": "why-are-my-pepper-plants-yellow-yellow-pepper-plants-yellow-leaves-green-veins-pepper-plants-yellow-veins.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Bell_pepper leaf\\why-are-my-pepper-plants-yellow-yellow-pepper-plants-yellow-leaves-green-veins-pepper-plants-yellow-veins.jpg",
+        "crop_path": "results/mvp5_crops/pimiento/why-are-my-pepper-plants-yellow-yellow-pepper-plants-yellow-leaves-green-veins-pepper-plants-yellow-veins.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            421,
+            750
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9855597782744082
+    },
+    {
+        "filename": "3023.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf early blight\\3023.jpg",
+        "crop_path": "results/mvp5_crops/papa/3023.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1024,
+            768
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9973557789993623
+    },
+    {
+        "filename": "backus-056-potato-blight.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf early blight\\backus-056-potato-blight.jpg",
+        "crop_path": "results/mvp5_crops/papa/backus-056-potato-blight.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            2848,
+            2136
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8109693411224729
+    },
+    {
+        "filename": "early-blight-alternaria-alternata-leaf-spotting-on-potato-leaf-X91XJE.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf early blight\\early-blight-alternaria-alternata-leaf-spotting-on-potato-leaf-X91XJE.jpg",
+        "crop_path": "results/mvp5_crops/papa/early-blight-alternaria-alternata-leaf-spotting-on-potato-leaf-X91XJE.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            120,
+            1300,
+            896
+        ],
+        "bbox_area_ratio": 0.7472894078398665,
+        "confidence": 0.6420089285659167
+    },
+    {
+        "filename": "early-blight-or-target-spot-alternaria-solani-lesions-on-a-tomato-AXK6AY.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf early blight\\early-blight-or-target-spot-alternaria-solani-lesions-on-a-tomato-AXK6AY.jpg",
+        "crop_path": "results/mvp5_crops/papa/early-blight-or-target-spot-alternaria-solani-lesions-on-a-tomato-AXK6AY.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            110,
+            1300,
+            748
+        ],
+        "bbox_area_ratio": 0.6997193638914874,
+        "confidence": 0.5436240230301972
+    },
+    {
+        "filename": "earlyblightpotato.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf early blight\\earlyblightpotato.jpg",
+        "crop_path": "results/mvp5_crops/papa/earlyblightpotato.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            465,
+            350
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9949984638405531
+    },
+    {
+        "filename": "potato-blight-phytophthora-infestans-close-up-of-upper-surface-of-BMMRXC.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf early blight\\potato-blight-phytophthora-infestans-close-up-of-upper-surface-of-BMMRXC.jpg",
+        "crop_path": "results/mvp5_crops/papa/potato-blight-phytophthora-infestans-close-up-of-upper-surface-of-BMMRXC.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            4,
+            124,
+            1194,
+            685
+        ],
+        "bbox_area_ratio": 0.6581026713871903,
+        "confidence": 0.4578947046612883
+    },
+    {
+        "filename": "potato-early-blight-alternaria-alternata-lesion-on-a-potato-leaf-a1w1em.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf early blight\\potato-early-blight-alternaria-alternata-lesion-on-a-potato-leaf-a1w1em.jpg",
+        "crop_path": "results/mvp5_crops/papa/potato-early-blight-alternaria-alternata-lesion-on-a-potato-leaf-a1w1em.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            589,
+            540
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7039803810380437
+    },
+    {
+        "filename": "potatobd001.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf early blight\\potatobd001.jpg",
+        "crop_path": "results/mvp5_crops/papa/potatobd001.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            230,
+            150
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9382173910324006
+    },
+    {
+        "filename": "20090710-lateblight.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf late blight\\20090710-lateblight.jpg",
+        "crop_path": "results/mvp5_crops/papa/20090710-lateblight.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            15,
+            0,
+            485,
+            364
+        ],
+        "bbox_area_ratio": 0.97,
+        "confidence": 0.5031579245211761
+    },
+    {
+        "filename": "2540_600.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf late blight\\2540_600.jpg",
+        "crop_path": "results/mvp5_crops/papa/2540_600.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            400,
+            473
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9888266384255378
+    },
+    {
+        "filename": "5816740026_d42ef24413_Phytophthora-Infestans.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf late blight\\5816740026_d42ef24413_Phytophthora-Infestans.jpg",
+        "crop_path": "results/mvp5_crops/papa/5816740026_d42ef24413_Phytophthora-Infestans.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            333,
+            500
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9880990990397539
+    },
+    {
+        "filename": "B2750109-Late_blight_on_a_potato_plant-SPL.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf late blight\\B2750109-Late_blight_on_a_potato_plant-SPL.jpg",
+        "crop_path": "results/mvp5_crops/papa/B2750109-Late_blight_on_a_potato_plant-SPL.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            539,
+            800
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9751878478438036
+    },
+    {
+        "filename": "irish-blight-symptoms-on-potato-leaves-atmf8b.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf late blight\\irish-blight-symptoms-on-potato-leaves-atmf8b.jpg",
+        "crop_path": "results/mvp5_crops/papa/irish-blight-symptoms-on-potato-leaves-atmf8b.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            640,
+            437
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7929723254865213
+    },
+    {
+        "filename": "LateBlight04.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf late blight\\LateBlight04.jpg",
+        "crop_path": "results/mvp5_crops/papa/LateBlight04.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            350,
+            233
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9928632739432417
+    },
+    {
+        "filename": "potato-late-blight.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Potato leaf late blight\\potato-late-blight.jpg",
+        "crop_path": "results/mvp5_crops/papa/potato-late-blight.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            490,
+            390
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.6154160125266659
+    },
+    {
+        "filename": "%2320+Bacterial+Spot+and+Speck.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf bacterial spot\\%2320+Bacterial+Spot+and+Speck.jpg",
+        "crop_path": "results/mvp5_crops/tomate/%2320+Bacterial+Spot+and+Speck.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            960,
+            720
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9975708911892713
+    },
+    {
+        "filename": "07.17.18-Common_Tomato_Diseases_Canker-258x300.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf bacterial spot\\07.17.18-Common_Tomato_Diseases_Canker-258x300.jpg",
+        "crop_path": "results/mvp5_crops/tomate/07.17.18-Common_Tomato_Diseases_Canker-258x300.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            258,
+            300
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9667441859216093
+    },
+    {
+        "filename": "bact-spot-fig-1.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf bacterial spot\\bact-spot-fig-1.jpg",
+        "crop_path": "results/mvp5_crops/tomate/bact-spot-fig-1.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1226,
+            817
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9819830837666353
+    },
+    {
+        "filename": "Bacterial_spots563.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf bacterial spot\\Bacterial_spots563.jpg",
+        "crop_path": "results/mvp5_crops/tomate/Bacterial_spots563.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            800,
+            590
+        ],
+        "bbox_area_ratio": 0.9833333333333333,
+        "confidence": 0.7079417372731368
+    },
+    {
+        "filename": "Tom_Bact3.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf bacterial spot\\Tom_Bact3.jpg",
+        "crop_path": "results/mvp5_crops/tomate/Tom_Bact3.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            33,
+            0,
+            333,
+            230
+        ],
+        "bbox_area_ratio": 0.8325,
+        "confidence": 0.46105888491173014
+    },
+    {
+        "filename": "Tom_Bact7.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf bacterial spot\\Tom_Bact7.jpg",
+        "crop_path": "results/mvp5_crops/tomate/Tom_Bact7.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            400,
+            268
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9937779849819237
+    },
+    {
+        "filename": "Tomato%2BBacterial%2BSpot%2Bon%2BLeaves.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf bacterial spot\\Tomato%2BBacterial%2BSpot%2Bon%2BLeaves.jpg",
+        "crop_path": "results/mvp5_crops/tomate/Tomato%2BBacterial%2BSpot%2Bon%2BLeaves.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            500,
+            263
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7852433459478904
+    },
+    {
+        "filename": "tomato_bacterial-speck_01_zoom.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf bacterial spot\\tomato_bacterial-speck_01_zoom.jpg",
+        "crop_path": "results/mvp5_crops/tomate/tomato_bacterial-speck_01_zoom.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            900,
+            675
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9638979423709647
+    },
+    {
+        "filename": "tomato_V8.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf bacterial spot\\tomato_V8.jpg",
+        "crop_path": "results/mvp5_crops/tomate/tomato_V8.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            350,
+            260
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.41820879116283416
+    },
+    {
+        "filename": "039b47d574bc4bb8a14259a1cd96a741.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Early blight leaf\\039b47d574bc4bb8a14259a1cd96a741.jpg",
+        "crop_path": "results/mvp5_crops/tomate/039b47d574bc4bb8a14259a1cd96a741.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            4,
+            146,
+            632,
+            261
+        ],
+        "bbox_area_ratio": 0.5397608654393623,
+        "confidence": 0.7609274212643117
+    },
+    {
+        "filename": "100983448.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Early blight leaf\\100983448.jpg",
+        "crop_path": "results/mvp5_crops/tomate/100983448.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            448,
+            448
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.971719547145462
+    },
+    {
+        "filename": "1234080-Early-Blight.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Early blight leaf\\1234080-Early-Blight.jpg",
+        "crop_path": "results/mvp5_crops/tomate/1234080-Early-Blight.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            768,
+            768
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9893595377436429
+    },
+    {
+        "filename": "bugs-and-blight-061.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Early blight leaf\\bugs-and-blight-061.jpg",
+        "crop_path": "results/mvp5_crops/tomate/bugs-and-blight-061.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            2576,
+            1932
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8661901788108054
+    },
+    {
+        "filename": "dscn3175.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Early blight leaf\\dscn3175.jpg",
+        "crop_path": "results/mvp5_crops/tomate/dscn3175.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            2592,
+            1944
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9772765520988582
+    },
+    {
+        "filename": "early_blight1-150x150.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Early blight leaf\\early_blight1-150x150.jpg",
+        "crop_path": "results/mvp5_crops/tomate/early_blight1-150x150.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            150,
+            150
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9867111106725729
+    },
+    {
+        "filename": "earlyblight21_.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Early blight leaf\\earlyblight21_.jpg",
+        "crop_path": "results/mvp5_crops/tomate/earlyblight21_.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1704,
+            2272
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9762078559949657
+    },
+    {
+        "filename": "Shoemaker_7068.JPG.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Early blight leaf\\Shoemaker_7068.JPG.jpg",
+        "crop_path": "results/mvp5_crops/tomate/Shoemaker_7068.JPG.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            450,
+            600
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9961148147779216
+    },
+    {
+        "filename": "tomato_early-blight_01_zoom.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Early blight leaf\\tomato_early-blight_01_zoom.jpg",
+        "crop_path": "results/mvp5_crops/tomate/tomato_early-blight_01_zoom.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            257,
+            378
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9827115886415589
+    },
+    {
+        "filename": "110822-206-Tomato-blight.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf late blight\\110822-206-Tomato-blight.jpg",
+        "crop_path": "results/mvp5_crops/tomate/110822-206-Tomato-blight.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            750,
+            499
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9966653306346916
+    },
+    {
+        "filename": "18c.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf late blight\\18c.jpg",
+        "crop_path": "results/mvp5_crops/tomate/18c.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            350,
+            255
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9897366945669762
+    },
+    {
+        "filename": "636368370164094909-late-blight-15-.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf late blight\\636368370164094909-late-blight-15-.jpg",
+        "crop_path": "results/mvp5_crops/tomate/636368370164094909-late-blight-15-.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            540,
+            405
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9258756286727995
+    },
+    {
+        "filename": "70.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf late blight\\70.jpg",
+        "crop_path": "results/mvp5_crops/tomate/70.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            490,
+            492
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9095715114937128
+    },
+    {
+        "filename": "dsc_8148cs.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf late blight\\dsc_8148cs.jpg",
+        "crop_path": "results/mvp5_crops/tomate/dsc_8148cs.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1299,
+            1267
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9979675945190188
+    },
+    {
+        "filename": "E%29Tomato-late-blight-foliar.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf late blight\\E%29Tomato-late-blight-foliar.jpg",
+        "crop_path": "results/mvp5_crops/tomate/E%29Tomato-late-blight-foliar.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            400,
+            300
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7938958332671753
+    },
+    {
+        "filename": "image.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf late blight\\image.jpg",
+        "crop_path": "results/mvp5_crops/tomate/image.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            490,
+            490
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8560308204558088
+    },
+    {
+        "filename": "IMG_5808.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf late blight\\IMG_5808.jpg",
+        "crop_path": "results/mvp5_crops/tomate/IMG_5808.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            4000,
+            3000
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9914178333325071
+    },
+    {
+        "filename": "late_blight_tomato_leaf_spore1x1200.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf late blight\\late_blight_tomato_leaf_spore1x1200.jpg",
+        "crop_path": "results/mvp5_crops/tomate/late_blight_tomato_leaf_spore1x1200.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            0,
+            1200,
+            894
+        ],
+        "bbox_area_ratio": 0.9781181619256017,
+        "confidence": 0.5154954325082448
+    },
+    {
+        "filename": "LateBlt09_06.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf late blight\\LateBlt09_06.jpg",
+        "crop_path": "results/mvp5_crops/tomate/LateBlt09_06.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            400,
+            268
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7047481342626167
+    },
+    {
+        "filename": "49%20Leafmold%20Bottom.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato mold leaf\\49%20Leafmold%20Bottom.jpg",
+        "crop_path": "results/mvp5_crops/tomate/49%20Leafmold%20Bottom.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            252,
+            137
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8378664115288301
+    },
+    {
+        "filename": "50%20Leafmold%20Top.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato mold leaf\\50%20Leafmold%20Top.jpg",
+        "crop_path": "results/mvp5_crops/tomate/50%20Leafmold%20Top.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            252,
+            162
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.6265922005127884
+    },
+    {
+        "filename": "BIGSD.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato mold leaf\\BIGSD.jpg",
+        "crop_path": "results/mvp5_crops/tomate/BIGSD.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            142,
+            0,
+            308,
+            206
+        ],
+        "bbox_area_ratio": 0.5572946859903382,
+        "confidence": 0.4532215356743756
+    },
+    {
+        "filename": "black_leaf_mold_in_zina_tina.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato mold leaf\\black_leaf_mold_in_zina_tina.jpg",
+        "crop_path": "results/mvp5_crops/tomate/black_leaf_mold_in_zina_tina.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            900,
+            675
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7216370370251582
+    },
+    {
+        "filename": "dscn6689.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato mold leaf\\dscn6689.jpg",
+        "crop_path": "results/mvp5_crops/tomate/dscn6689.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1024,
+            768
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.6492830912189576
+    },
+    {
+        "filename": "fungus-univ-of-minnesoeta.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato mold leaf\\fungus-univ-of-minnesoeta.jpg",
+        "crop_path": "results/mvp5_crops/tomate/fungus-univ-of-minnesoeta.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            800,
+            600
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.997085416645894
+    },
+    {
+        "filename": "0.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Septoria leaf spot\\0.jpg",
+        "crop_path": "results/mvp5_crops/tomate/0.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            2,
+            111,
+            476,
+            158
+        ],
+        "bbox_area_ratio": 0.4352314814814815,
+        "confidence": 0.7710216997166496
+    },
+    {
+        "filename": "2septoria-tomato.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Septoria leaf spot\\2septoria-tomato.jpg",
+        "crop_path": "results/mvp5_crops/tomate/2septoria-tomato.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            430,
+            290
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9942341619090429
+    },
+    {
+        "filename": "2STEM.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Septoria leaf spot\\2STEM.jpg",
+        "crop_path": "results/mvp5_crops/tomate/2STEM.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            40,
+            0,
+            298,
+            640
+        ],
+        "bbox_area_ratio": 0.8119891008174387,
+        "confidence": 0.6109532298337378
+    },
+    {
+        "filename": "55830b60a7cf2.image.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Septoria leaf spot\\55830b60a7cf2.image.jpg",
+        "crop_path": "results/mvp5_crops/tomate/55830b60a7cf2.image.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1173,
+            1766
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9646085624118902
+    },
+    {
+        "filename": "6134794031202304.jpeg.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Septoria leaf spot\\6134794031202304.jpeg.jpg",
+        "crop_path": "results/mvp5_crops/tomate/6134794031202304.jpeg.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            600,
+            800
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9672958333131813
+    },
+    {
+        "filename": "636227737977191231-septoria-leaf-spot-VT.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Septoria leaf spot\\636227737977191231-septoria-leaf-spot-VT.jpg",
+        "crop_path": "results/mvp5_crops/tomate/636227737977191231-septoria-leaf-spot-VT.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            534,
+            401
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9849113171665914
+    },
+    {
+        "filename": "6447731_orig.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Septoria leaf spot\\6447731_orig.jpg",
+        "crop_path": "results/mvp5_crops/tomate/6447731_orig.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            500,
+            332
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9949939758436751
+    },
+    {
+        "filename": "7-17-Photo3_Septoria-MARY.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Septoria leaf spot\\7-17-Photo3_Septoria-MARY.jpg",
+        "crop_path": "results/mvp5_crops/tomate/7-17-Photo3_Septoria-MARY.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            450,
+            359
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9911637263391418
+    },
+    {
+        "filename": "early-blight-septoria-ls-fig-3.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Septoria leaf spot\\early-blight-septoria-ls-fig-3.jpg",
+        "crop_path": "results/mvp5_crops/tomate/early-blight-septoria-ls-fig-3.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1500,
+            1125
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9966847407348344
+    },
+    {
+        "filename": "RARZ4.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Septoria leaf spot\\RARZ4.jpg",
+        "crop_path": "results/mvp5_crops/tomate/RARZ4.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            6000,
+            4000
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9223636874996157
+    },
+    {
+        "filename": "sept4disease-019.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato Septoria leaf spot\\sept4disease-019.jpg",
+        "crop_path": "results/mvp5_crops/tomate/sept4disease-019.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1903,
+            1444
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.5706724183838222
+    },
+    {
+        "filename": "11-40580_5.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf yellow virus\\11-40580_5.jpg",
+        "crop_path": "results/mvp5_crops/tomate/11-40580_5.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            400,
+            200
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9903624998762046
+    },
+    {
+        "filename": "17fc47.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf yellow virus\\17fc47.jpg",
+        "crop_path": "results/mvp5_crops/tomate/17fc47.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            768,
+            1024
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.908229192086433
+    },
+    {
+        "filename": "8226402877_9abf151b5b_b.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf yellow virus\\8226402877_9abf151b5b_b.jpg",
+        "crop_path": "results/mvp5_crops/tomate/8226402877_9abf151b5b_b.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1024,
+            683
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9969637913931392
+    },
+    {
+        "filename": "fwa2013313115151.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf yellow virus\\fwa2013313115151.jpg",
+        "crop_path": "results/mvp5_crops/tomate/fwa2013313115151.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            320,
+            240
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9634700519578815
+    },
+    {
+        "filename": "glyphosate.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf yellow virus\\glyphosate.jpg",
+        "crop_path": "results/mvp5_crops/tomate/glyphosate.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            788,
+            362
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9244976441889216
+    },
+    {
+        "filename": "tylcv-seminar-1-638.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf yellow virus\\tylcv-seminar-1-638.jpg",
+        "crop_path": "results/mvp5_crops/tomate/tylcv-seminar-1-638.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            151,
+            638,
+            321
+        ],
+        "bbox_area_ratio": 0.6701461377870563,
+        "confidence": 0.38375130614636127
+    },
+    {
+        "filename": "9511.img.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf mosaic virus\\9511.img.jpg",
+        "crop_path": "results/mvp5_crops/tomate/9511.img.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            540,
+            400
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9534629629188212
+    },
+    {
+        "filename": "D%29AlfMov.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf mosaic virus\\D%29AlfMov.jpg",
+        "crop_path": "results/mvp5_crops/tomate/D%29AlfMov.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            400,
+            317
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8408004731198107
+    },
+    {
+        "filename": "everystockphoto-21099455-l.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf mosaic virus\\everystockphoto-21099455-l.jpg",
+        "crop_path": "results/mvp5_crops/tomate/everystockphoto-21099455-l.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            500,
+            375
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9689919999483205
+    },
+    {
+        "filename": "ill-tomato-of-tomato-mosaic-virus-DBE17N.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf mosaic virus\\ill-tomato-of-tomato-mosaic-virus-DBE17N.jpg",
+        "crop_path": "results/mvp5_crops/tomate/ill-tomato-of-tomato-mosaic-virus-DBE17N.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            0,
+            1300,
+            914
+        ],
+        "bbox_area_ratio": 0.9560669456066946,
+        "confidence": 0.8870573135761062
+    },
+    {
+        "filename": "page_2.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf mosaic virus\\page_2.jpg",
+        "crop_path": "results/mvp5_crops/tomate/page_2.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            0,
+            151,
+            960,
+            623
+        ],
+        "bbox_area_ratio": 0.8049095607235142,
+        "confidence": 0.7666340623199801
+    },
+    {
+        "filename": "tmv-tomato-34.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf mosaic virus\\tmv-tomato-34.jpg",
+        "crop_path": "results/mvp5_crops/tomate/tmv-tomato-34.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            3648,
+            2736
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9241804970430363
+    },
+    {
+        "filename": "tmv-tomato-9.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf mosaic virus\\tmv-tomato-9.jpg",
+        "crop_path": "results/mvp5_crops/tomate/tmv-tomato-9.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            3648,
+            2736
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.8962727714287726
+    },
+    {
+        "filename": "toma_TMV.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf mosaic virus\\toma_TMV.jpg",
+        "crop_path": "results/mvp5_crops/tomate/toma_TMV.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            905,
+            605
+        ],
+        "bbox_area_ratio": 0.9977949283351709,
+        "confidence": 0.46917035750935265
+    },
+    {
+        "filename": "Tomato-Mosaic-1wdr2jx-300x225.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf mosaic virus\\Tomato-Mosaic-1wdr2jx-300x225.jpg",
+        "crop_path": "results/mvp5_crops/tomate/Tomato-Mosaic-1wdr2jx-300x225.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            130,
+            69
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9376254170149104
+    },
+    {
+        "filename": "tomato_virus_04_zoom.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf mosaic virus\\tomato_virus_04_zoom.jpg",
+        "crop_path": "results/mvp5_crops/tomate/tomato_virus_04_zoom.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            900,
+            675
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7781102880530353
+    },
+    {
+        "filename": "1684.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf\\1684.jpg",
+        "crop_path": "results/mvp5_crops/tomate/1684.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            563,
+            631
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.44055785593814667
+    },
+    {
+        "filename": "2013-08-20-06.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf\\2013-08-20-06.jpg",
+        "crop_path": "results/mvp5_crops/tomate/2013-08-20-06.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1600,
+            1200
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.7398041666628135
+    },
+    {
+        "filename": "90e2c0.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf\\90e2c0.jpg",
+        "crop_path": "results/mvp5_crops/tomate/90e2c0.jpg",
+        "localization_status": "VALID_CROP",
+        "bbox": [
+            85,
+            0,
+            915,
+            1333
+        ],
+        "bbox_area_ratio": 0.915,
+        "confidence": 0.7374646940363166
+    },
+    {
+        "filename": "DSCN1015.JPG.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf\\DSCN1015.JPG.jpg",
+        "crop_path": "results/mvp5_crops/tomate/DSCN1015.JPG.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1600,
+            1200
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.5136114583306582
+    },
+    {
+        "filename": "IMG_1246.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf\\IMG_1246.jpg",
+        "crop_path": "results/mvp5_crops/tomate/IMG_1246.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1600,
+            1200
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9874734374948568
+    },
+    {
+        "filename": "main-qimg-d9c2a93f60568485c989670d9bbf703b.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf\\main-qimg-d9c2a93f60568485c989670d9bbf703b.jpg",
+        "crop_path": "results/mvp5_crops/tomate/main-qimg-d9c2a93f60568485c989670d9bbf703b.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            8,
+            11,
+            590,
+            451
+        ],
+        "bbox_area_ratio": 0.9567315298212308,
+        "confidence": 0.3320962831999663
+    },
+    {
+        "filename": "Tomato59.JPG.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf\\Tomato59.JPG.jpg",
+        "crop_path": "results/mvp5_crops/tomate/Tomato59.JPG.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            1600,
+            1205
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.9617393672149287
+    },
+    {
+        "filename": "Tomato_leaf.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "original_path": "PlantDoc-Dataset\\test\\Tomato leaf\\Tomato_leaf.jpg",
+        "crop_path": "results/mvp5_crops/tomate/Tomato_leaf.jpg",
+        "localization_status": "LOW_CONFIDENCE",
+        "bbox": [
+            0,
+            0,
+            2144,
+            2143
+        ],
+        "bbox_area_ratio": 1.0,
+        "confidence": 0.99558796515339
+    }
+]

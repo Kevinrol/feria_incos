@@ -1,0 +1,4990 @@
+[
+    {
+        "filename": "052609%20Hartman%20Crabapple%20scab%20single%20leaf.JPG.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 71.22930908203125,
+            "correct": true,
+            "top3": [
+                "Manzana: Sarna del manzano (71.2%)",
+                "Tomate: Tizón temprano (9.8%)",
+                "Tomate: Moho foliar (8.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 75.24050903320312,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Manzana: Sarna del manzano (75.2%)",
+                "Tomate: Tizón temprano (11.7%)",
+                "Manzana: Roya del manzano (10.2%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "1b321015-6e33-4f18-aade-888f4383fe92.jpeg.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "mvp2": {
+            "predicted": "Tomate: Mancha bacteriana",
+            "crop_predicted": "Tomate",
+            "confidence": 26.690608978271484,
+            "correct": false,
+            "top3": [
+                "Tomate: Mancha bacteriana (26.7%)",
+                "Manzana: Roya del manzano (21.6%)",
+                "Maíz: Tizón foliar norteño (9.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha bacteriana",
+            "crop_predicted": "Tomate",
+            "confidence": 73.51274108886719,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Mancha bacteriana (73.5%)",
+                "Maíz: Tizón foliar norteño (8.0%)",
+                "Papa: Tizón temprano (7.2%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "28-500x375.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 23.25193214416504,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón temprano (23.3%)",
+                "Tomate: Mancha foliar por Septoria (19.0%)",
+                "Tomate: Mancha bacteriana (13.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha bacteriana",
+            "crop_predicted": "Tomate",
+            "confidence": 88.37757873535156,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Mancha bacteriana (88.4%)",
+                "Papa: Tizón temprano (2.4%)",
+                "Tomate: Tizón temprano (2.3%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "816.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "mvp2": {
+            "predicted": "Manzana: Podredumbre negra",
+            "crop_predicted": "Manzana",
+            "confidence": 23.902345657348633,
+            "correct": false,
+            "top3": [
+                "Manzana: Podredumbre negra (23.9%)",
+                "Tomate: Mancha bacteriana (21.3%)",
+                "Vid (Uva): Esca (Sarampión negro) (18.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 61.569828033447266,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (61.6%)",
+                "Tomate: Mancha bacteriana (23.4%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (5.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "apple%20scab%20leaf.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "mvp2": {
+            "predicted": "Papa: Tizón temprano",
+            "crop_predicted": "Papa",
+            "confidence": 56.544921875,
+            "correct": false,
+            "top3": [
+                "Papa: Tizón temprano (56.5%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (23.2%)",
+                "Manzana: Sarna del manzano (10.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 79.51486206054688,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Manzana: Sarna del manzano (79.5%)",
+                "Papa: Tizón temprano (13.5%)",
+                "Maíz: Roya común (3.8%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "apple%20scabnew.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 16.598684310913086,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (16.6%)",
+                "Vid (Uva): Esca (Sarampión negro) (11.2%)",
+                "Papa: Tizón temprano (8.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 27.05306053161621,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (27.1%)",
+                "Papa: Tizón temprano (16.8%)",
+                "Pimiento: Mancha bacteriana (14.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "apple-scab-5366820.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 42.19535827636719,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón temprano (42.2%)",
+                "Tomate: Mancha bacteriana (29.2%)",
+                "Tomate: Tizón tardío (8.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 56.05564880371094,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (56.1%)",
+                "Tomate: Tizón temprano (22.1%)",
+                "Tomate: Mancha bacteriana (17.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "apples_apple-scab_01_zoom.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 28.6649112701416,
+            "correct": true,
+            "top3": [
+                "Manzana: Sarna del manzano (28.7%)",
+                "Tomate: Mancha foliar por Septoria (18.7%)",
+                "Manzana: Roya del manzano (16.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 24.82476806640625,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón temprano (24.8%)",
+                "Manzana: Sarna del manzano (22.4%)",
+                "Maíz: Roya común (17.8%)"
+            ]
+        },
+        "category": "REGRESSION"
+    },
+    {
+        "filename": "apples_apple-scab_02_thm.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 56.92750930786133,
+            "correct": true,
+            "top3": [
+                "Manzana: Sarna del manzano (56.9%)",
+                "Papa: Tizón temprano (29.8%)",
+                "Tomate: Tizón tardío (5.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 89.97733306884766,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Manzana: Sarna del manzano (90.0%)",
+                "Papa: Tizón temprano (9.6%)",
+                "Papa: Tizón tardío (0.1%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "apples_apple-scab_10_zoom.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Sarna del manzano",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 51.345272064208984,
+            "correct": true,
+            "top3": [
+                "Manzana: Sarna del manzano (51.3%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (14.2%)",
+                "Manzana: Saludable (13.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Tizón foliar por Isariopsis",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 54.85519027709961,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Tizón foliar por Isariopsis (54.9%)",
+                "Manzana: Sarna del manzano (12.8%)",
+                "Manzana: Saludable (12.2%)"
+            ]
+        },
+        "category": "REGRESSION"
+    },
+    {
+        "filename": "02.-Rust-2017-207u24s.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 42.780487060546875,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (42.8%)",
+                "Pimiento: Mancha bacteriana (15.6%)",
+                "Maíz: Roya común (9.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 46.1540412902832,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (46.2%)",
+                "Pimiento: Saludable (33.4%)",
+                "Maíz: Roya común (5.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "0605_Rust-induced_leafspot.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 44.59675979614258,
+            "correct": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (44.6%)",
+                "Vid (Uva): Esca (Sarampión negro) (23.3%)",
+                "Manzana: Roya del manzano (15.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 49.014930725097656,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (49.0%)",
+                "Papa: Tizón temprano (23.3%)",
+                "Maíz: Roya común (16.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "185161-004-EAF28842.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "mvp2": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 52.65375518798828,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (52.7%)",
+                "Maíz: Roya común (19.5%)",
+                "Manzana: Roya del manzano (14.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 85.7159652709961,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (85.7%)",
+                "Maíz: Roya común (5.1%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (4.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "2011-011.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "mvp2": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 95.99526977539062,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (96.0%)",
+                "Maíz: Mancha foliar gris por Cercospora (1.9%)",
+                "Tomate: Tizón temprano (0.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 91.31086730957031,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (91.3%)",
+                "Papa: Tizón temprano (2.3%)",
+                "Tomate: Tizón temprano (2.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "20130519cedarapplerust.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 49.02824020385742,
+            "correct": false,
+            "top3": [
+                "Manzana: Sarna del manzano (49.0%)",
+                "Manzana: Roya del manzano (24.6%)",
+                "Maíz: Roya común (7.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Roya del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 50.322349548339844,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Manzana: Roya del manzano (50.3%)",
+                "Vid (Uva): Podredumbre negra (14.2%)",
+                "Vid (Uva): Esca (Sarampión negro) (13.6%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "20130610_110514.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "mvp2": {
+            "predicted": "Manzana: Roya del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 35.289466857910156,
+            "correct": true,
+            "top3": [
+                "Manzana: Roya del manzano (35.3%)",
+                "Manzana: Sarna del manzano (30.0%)",
+                "Manzana: Podredumbre negra (9.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 48.28411102294922,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Roya común (48.3%)",
+                "Manzana: Sarna del manzano (18.2%)",
+                "Manzana: Roya del manzano (10.6%)"
+            ]
+        },
+        "category": "REGRESSION"
+    },
+    {
+        "filename": "20130802_111632.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 80.56201171875,
+            "correct": false,
+            "top3": [
+                "Manzana: Sarna del manzano (80.6%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (8.1%)",
+                "Maíz: Roya común (2.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Tizón foliar por Isariopsis",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 76.30341339111328,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Vid (Uva): Tizón foliar por Isariopsis (76.3%)",
+                "Manzana: Sarna del manzano (13.9%)",
+                "Maíz: Roya común (4.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "4-apple-rust2_19011_matt-bertone.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "mvp2": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 33.1588134765625,
+            "correct": false,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (33.2%)",
+                "Tomate: Mancha bacteriana (29.3%)",
+                "Manzana: Podredumbre negra (9.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 46.49180603027344,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (46.5%)",
+                "Pimiento: Mancha bacteriana (25.8%)",
+                "Tomate: Tizón temprano (11.3%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "9343310-small.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 23.668420791625977,
+            "correct": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (23.7%)",
+                "Tomate: Tizón temprano (13.8%)",
+                "Manzana: Roya del manzano (12.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 46.49079132080078,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (46.5%)",
+                "Vid (Uva): Esca (Sarampión negro) (19.2%)",
+                "Tomate: Tizón temprano (16.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "99e886623c2080c22f6519b0e708c531.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Roya del manzano",
+        "mvp2": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 37.70984649658203,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (37.7%)",
+                "Pimiento: Mancha bacteriana (15.4%)",
+                "Manzana: Sarna del manzano (12.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 51.73675537109375,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (51.7%)",
+                "Pimiento: Mancha bacteriana (16.4%)",
+                "Manzana: Roya del manzano (10.5%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "20180511_090912-14gtw8a-e1526047952754.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 50.98084259033203,
+            "correct": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (51.0%)",
+                "Tomate: Tizón tardío (26.6%)",
+                "Manzana: Sarna del manzano (7.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 74.04378509521484,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (74.0%)",
+                "Tomate: Tizón temprano (7.9%)",
+                "Pimiento: Mancha bacteriana (7.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "20180511_091133-24l1vhg-e1526047988236.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 85.21653747558594,
+            "correct": false,
+            "top3": [
+                "Manzana: Sarna del manzano (85.2%)",
+                "Manzana: Saludable (12.6%)",
+                "Manzana: Roya del manzano (1.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Saludable",
+            "crop_predicted": "Manzana",
+            "confidence": 67.02223205566406,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Manzana: Saludable (67.0%)",
+                "Manzana: Sarna del manzano (32.8%)",
+                "Papa: Tizón tardío (0.1%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "20180511_091252-1gy5xf5-e1526048000596.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 83.37166595458984,
+            "correct": false,
+            "top3": [
+                "Manzana: Sarna del manzano (83.4%)",
+                "Manzana: Saludable (8.4%)",
+                "Tomate: Tizón tardío (1.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 62.37470626831055,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Manzana: Sarna del manzano (62.4%)",
+                "Manzana: Saludable (30.8%)",
+                "Papa: Tizón tardío (1.7%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "4120978-single-green-leaf-of-apple-tree.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "mvp2": {
+            "predicted": "Manzana: Saludable",
+            "crop_predicted": "Manzana",
+            "confidence": 91.75607299804688,
+            "correct": true,
+            "top3": [
+                "Manzana: Saludable (91.8%)",
+                "Vid (Uva): Saludable (2.1%)",
+                "Pimiento: Saludable (1.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Saludable",
+            "crop_predicted": "Manzana",
+            "confidence": 86.90437316894531,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Manzana: Saludable (86.9%)",
+                "Vid (Uva): Saludable (6.8%)",
+                "Pimiento: Saludable (3.6%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "apple-leaf-14319997.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "mvp2": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 34.480369567871094,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Saludable (34.5%)",
+                "Manzana: Saludable (23.6%)",
+                "Papa: Saludable (13.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 75.62916564941406,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Saludable (75.6%)",
+                "Maíz: Roya común (5.9%)",
+                "Manzana: Saludable (5.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "apple-leaf-9834637.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "mvp2": {
+            "predicted": "Manzana: Saludable",
+            "crop_predicted": "Manzana",
+            "confidence": 52.763187408447266,
+            "correct": true,
+            "top3": [
+                "Manzana: Saludable (52.8%)",
+                "Vid (Uva): Saludable (10.7%)",
+                "Manzana: Sarna del manzano (7.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Saludable",
+            "crop_predicted": "Manzana",
+            "confidence": 82.2278060913086,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Manzana: Saludable (82.2%)",
+                "Vid (Uva): Saludable (6.2%)",
+                "Manzana: Sarna del manzano (4.2%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "apple-leaf-closeup-37636177.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "mvp2": {
+            "predicted": "Manzana: Saludable",
+            "crop_predicted": "Manzana",
+            "confidence": 87.61038208007812,
+            "correct": true,
+            "top3": [
+                "Manzana: Saludable (87.6%)",
+                "Manzana: Podredumbre negra (3.8%)",
+                "Vid (Uva): Saludable (3.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Saludable",
+            "crop_predicted": "Manzana",
+            "confidence": 97.4044189453125,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Manzana: Saludable (97.4%)",
+                "Vid (Uva): Saludable (1.3%)",
+                "Manzana: Podredumbre negra (0.6%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "apple-leaf-isolated-white-background-56631026.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "mvp2": {
+            "predicted": "Manzana: Saludable",
+            "crop_predicted": "Manzana",
+            "confidence": 47.809112548828125,
+            "correct": true,
+            "top3": [
+                "Manzana: Saludable (47.8%)",
+                "Manzana: Podredumbre negra (23.1%)",
+                "Vid (Uva): Saludable (11.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Saludable",
+            "crop_predicted": "Manzana",
+            "confidence": 78.01705932617188,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Manzana: Saludable (78.0%)",
+                "Vid (Uva): Saludable (10.5%)",
+                "Manzana: Podredumbre negra (5.0%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "Apple-Leaf-Wallpaper-17.jpg",
+        "crop": "Manzana",
+        "ground_truth": "Manzana: Saludable",
+        "mvp2": {
+            "predicted": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+            "crop_predicted": "Tomate",
+            "confidence": 42.12488555908203,
+            "correct": false,
+            "top3": [
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (42.1%)",
+                "Pimiento: Mancha bacteriana (24.6%)",
+                "Maíz: Mancha foliar gris por Cercospora (8.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha bacteriana",
+            "crop_predicted": "Tomate",
+            "confidence": 21.3070011138916,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Mancha bacteriana (21.3%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (19.0%)",
+                "Tomate: Mancha foliar por Septoria (19.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "IMG_42231.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Mancha foliar gris por Cercospora",
+        "mvp2": {
+            "predicted": "Maíz: Saludable",
+            "crop_predicted": "Maíz",
+            "confidence": 56.0286750793457,
+            "correct": false,
+            "top3": [
+                "Maíz: Saludable (56.0%)",
+                "Maíz: Tizón foliar norteño (11.4%)",
+                "Maíz: Roya común (9.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Saludable",
+            "crop_predicted": "Maíz",
+            "confidence": 78.05870056152344,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Maíz: Saludable (78.1%)",
+                "Tomate: Tizón tardío (10.0%)",
+                "Maíz: Tizón foliar norteño (5.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "rsz0803Figure6.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Mancha foliar gris por Cercospora",
+        "mvp2": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 98.10296630859375,
+            "correct": false,
+            "top3": [
+                "Maíz: Tizón foliar norteño (98.1%)",
+                "Maíz: Mancha foliar gris por Cercospora (0.8%)",
+                "Maíz: Roya común (0.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 99.38001251220703,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (99.4%)",
+                "Maíz: Mancha foliar gris por Cercospora (0.4%)",
+                "Maíz: Roya común (0.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "strom5.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Mancha foliar gris por Cercospora",
+        "mvp2": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 97.36830139160156,
+            "correct": true,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (97.4%)",
+                "Maíz: Tizón foliar norteño (1.6%)",
+                "Vid (Uva): Esca (Sarampión negro) (0.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 99.60865783691406,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (99.6%)",
+                "Maíz: Tizón foliar norteño (0.4%)",
+                "Vid (Uva): Esca (Sarampión negro) (0.0%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "0796.39maizerust.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "mvp2": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 74.87654876708984,
+            "correct": false,
+            "top3": [
+                "Maíz: Tizón foliar norteño (74.9%)",
+                "Maíz: Roya común (14.1%)",
+                "Pimiento: Mancha bacteriana (5.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 84.00800323486328,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (84.0%)",
+                "Maíz: Roya común (10.1%)",
+                "Pimiento: Mancha bacteriana (3.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "0796.40comrust.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 67.76609802246094,
+            "correct": true,
+            "top3": [
+                "Maíz: Roya común (67.8%)",
+                "Maíz: Tizón foliar norteño (24.6%)",
+                "Maíz: Mancha foliar gris por Cercospora (4.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 66.27521514892578,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (66.3%)",
+                "Maíz: Roya común (30.9%)",
+                "Manzana: Roya del manzano (2.2%)"
+            ]
+        },
+        "category": "REGRESSION"
+    },
+    {
+        "filename": "0796.47southrust.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 94.22716522216797,
+            "correct": true,
+            "top3": [
+                "Maíz: Roya común (94.2%)",
+                "Maíz: Tizón foliar norteño (3.6%)",
+                "Maíz: Mancha foliar gris por Cercospora (1.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 98.10443878173828,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Roya común (98.1%)",
+                "Maíz: Tizón foliar norteño (1.5%)",
+                "Maíz: Mancha foliar gris por Cercospora (0.4%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "0796.52srusttelia.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "mvp2": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 81.24561309814453,
+            "correct": false,
+            "top3": [
+                "Maíz: Tizón foliar norteño (81.2%)",
+                "Maíz: Roya común (3.7%)",
+                "Maíz: Mancha foliar gris por Cercospora (3.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 97.70732116699219,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Maíz: Tizón foliar norteño (97.7%)",
+                "Maíz: Mancha foliar gris por Cercospora (0.7%)",
+                "Maíz: Saludable (0.5%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "12-19striprustJIM.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "mvp2": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 50.18594741821289,
+            "correct": false,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (50.2%)",
+                "Maíz: Roya común (43.7%)",
+                "Maíz: Tizón foliar norteño (4.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 93.1829833984375,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (93.2%)",
+                "Maíz: Tizón foliar norteño (4.1%)",
+                "Maíz: Roya común (2.6%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "1355.50commonrust.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "mvp2": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 67.93712615966797,
+            "correct": false,
+            "top3": [
+                "Maíz: Tizón foliar norteño (67.9%)",
+                "Maíz: Mancha foliar gris por Cercospora (17.4%)",
+                "Maíz: Roya común (14.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 98.71762084960938,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (98.7%)",
+                "Maíz: Roya común (0.7%)",
+                "Maíz: Mancha foliar gris por Cercospora (0.6%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "2256-body-1501555581-1.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 35.11935043334961,
+            "correct": true,
+            "top3": [
+                "Maíz: Roya común (35.1%)",
+                "Maíz: Mancha foliar gris por Cercospora (31.4%)",
+                "Maíz: Tizón foliar norteño (14.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 42.140350341796875,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Roya común (42.1%)",
+                "Maíz: Tizón foliar norteño (31.9%)",
+                "Maíz: Mancha foliar gris por Cercospora (11.8%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "393.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "mvp2": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 44.07521438598633,
+            "correct": false,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (44.1%)",
+                "Maíz: Roya común (27.1%)",
+                "Maíz: Tizón foliar norteño (23.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 50.1861572265625,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (50.2%)",
+                "Maíz: Mancha foliar gris por Cercospora (32.2%)",
+                "Maíz: Roya común (13.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "5496239405_d95bdb97d1_z.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 46.73684310913086,
+            "correct": true,
+            "top3": [
+                "Maíz: Roya común (46.7%)",
+                "Maíz: Tizón foliar norteño (39.7%)",
+                "Maíz: Mancha foliar gris por Cercospora (11.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 60.510475158691406,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Roya común (60.5%)",
+                "Maíz: Tizón foliar norteño (37.0%)",
+                "Maíz: Mancha foliar gris por Cercospora (2.2%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "80104747.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Roya común",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 74.70542907714844,
+            "correct": true,
+            "top3": [
+                "Maíz: Roya común (74.7%)",
+                "Maíz: Mancha foliar gris por Cercospora (20.5%)",
+                "Maíz: Saludable (2.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 98.24183654785156,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Roya común (98.2%)",
+                "Maíz: Mancha foliar gris por Cercospora (1.0%)",
+                "Maíz: Tizón foliar norteño (0.3%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "02c.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 60.905487060546875,
+            "correct": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (60.9%)",
+                "Pimiento: Mancha bacteriana (14.6%)",
+                "Maíz: Saludable (7.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 82.14672088623047,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (82.1%)",
+                "Maíz: Saludable (9.6%)",
+                "Maíz: Mancha foliar gris por Cercospora (4.2%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "0796.20graylssymt.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 56.25177764892578,
+            "correct": false,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (56.3%)",
+                "Maíz: Roya común (23.7%)",
+                "Maíz: Saludable (6.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 93.46794128417969,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (93.5%)",
+                "Maíz: Saludable (2.2%)",
+                "Maíz: Roya común (1.5%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "07c.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 37.56102752685547,
+            "correct": false,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (37.6%)",
+                "Maíz: Roya común (25.8%)",
+                "Maíz: Tizón foliar norteño (21.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 81.25650024414062,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (81.3%)",
+                "Pimiento: Mancha bacteriana (9.3%)",
+                "Maíz: Roya común (5.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "0c.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Saludable",
+            "crop_predicted": "Maíz",
+            "confidence": 57.31543731689453,
+            "correct": false,
+            "top3": [
+                "Maíz: Saludable (57.3%)",
+                "Maíz: Tizón foliar norteño (41.6%)",
+                "Maíz: Mancha foliar gris por Cercospora (0.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Saludable",
+            "crop_predicted": "Maíz",
+            "confidence": 72.6463851928711,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Saludable (72.6%)",
+                "Maíz: Tizón foliar norteño (26.9%)",
+                "Maíz: Mancha foliar gris por Cercospora (0.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "1321189.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 63.967384338378906,
+            "correct": false,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (64.0%)",
+                "Maíz: Roya común (30.2%)",
+                "Maíz: Tizón foliar norteño (2.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 85.9437484741211,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (85.9%)",
+                "Maíz: Roya común (11.5%)",
+                "Maíz: Tizón foliar norteño (2.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "160314_web.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 91.25926208496094,
+            "correct": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (91.3%)",
+                "Maíz: Saludable (6.7%)",
+                "Maíz: Roya común (1.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 98.804931640625,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (98.8%)",
+                "Maíz: Mancha foliar gris por Cercospora (0.6%)",
+                "Maíz: Saludable (0.5%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "2013Corn_GrayLeafSpot_0815_0003.JPG.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 57.86042022705078,
+            "correct": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (57.9%)",
+                "Maíz: Mancha foliar gris por Cercospora (25.6%)",
+                "Maíz: Roya común (9.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 75.4920654296875,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (75.5%)",
+                "Maíz: Mancha foliar gris por Cercospora (22.1%)",
+                "Maíz: Roya común (2.3%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "2015070295153021.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 92.53985595703125,
+            "correct": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (92.5%)",
+                "Maíz: Roya común (3.1%)",
+                "Maíz: Saludable (1.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 98.38898468017578,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (98.4%)",
+                "Tomate: Tizón tardío (0.7%)",
+                "Maíz: Roya común (0.5%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "Common%20Diseases%20Figure%201.JPG.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 52.78453063964844,
+            "correct": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (52.8%)",
+                "Maíz: Mancha foliar gris por Cercospora (39.2%)",
+                "Pimiento: Mancha bacteriana (5.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 72.58395385742188,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (72.6%)",
+                "Maíz: Tizón foliar norteño (26.8%)",
+                "Pimiento: Mancha bacteriana (0.4%)"
+            ]
+        },
+        "category": "REGRESSION"
+    },
+    {
+        "filename": "corn-disease-update-fig-3-gray-leaf-spot.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 57.5245246887207,
+            "correct": false,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (57.5%)",
+                "Maíz: Roya común (22.4%)",
+                "Maíz: Saludable (13.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 41.54631423950195,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (41.5%)",
+                "Maíz: Mancha foliar gris por Cercospora (39.4%)",
+                "Maíz: Roya común (10.1%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "corn-gray-leaf-spot-f4.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 74.86514282226562,
+            "correct": false,
+            "top3": [
+                "Maíz: Roya común (74.9%)",
+                "Maíz: Mancha foliar gris por Cercospora (20.7%)",
+                "Maíz: Tizón foliar norteño (2.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 92.53205108642578,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Roya común (92.5%)",
+                "Maíz: Mancha foliar gris por Cercospora (7.1%)",
+                "Maíz: Tizón foliar norteño (0.3%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "Corn-SCLB-2017-1.jpg",
+        "crop": "Maíz",
+        "ground_truth": "Maíz: Tizón foliar norteño",
+        "mvp2": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 27.337255477905273,
+            "correct": true,
+            "top3": [
+                "Maíz: Tizón foliar norteño (27.3%)",
+                "Maíz: Mancha foliar gris por Cercospora (23.8%)",
+                "Pimiento: Mancha bacteriana (16.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Mancha foliar gris por Cercospora",
+            "crop_predicted": "Maíz",
+            "confidence": 60.76797866821289,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Mancha foliar gris por Cercospora (60.8%)",
+                "Maíz: Tizón foliar norteño (18.4%)",
+                "Maíz: Roya común (15.8%)"
+            ]
+        },
+        "category": "REGRESSION"
+    },
+    {
+        "filename": "03gb.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "mvp2": {
+            "predicted": "Vid (Uva): Podredumbre negra",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 47.01374435424805,
+            "correct": true,
+            "top3": [
+                "Vid (Uva): Podredumbre negra (47.0%)",
+                "Tomate: Mancha bacteriana (16.0%)",
+                "Maíz: Roya común (9.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Podredumbre negra",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 69.73098754882812,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Podredumbre negra (69.7%)",
+                "Manzana: Podredumbre negra (11.8%)",
+                "Tomate: Mancha bacteriana (7.2%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "35589125035_662dd5b258_b.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "mvp2": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 82.88993072509766,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (82.9%)",
+                "Vid (Uva): Podredumbre negra (6.8%)",
+                "Maíz: Roya común (1.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 67.7248764038086,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (67.7%)",
+                "Vid (Uva): Podredumbre negra (16.9%)",
+                "Maíz: Roya común (7.6%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "5-29black-rot-chardRR.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "mvp2": {
+            "predicted": "Vid (Uva): Podredumbre negra",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 92.17558288574219,
+            "correct": true,
+            "top3": [
+                "Vid (Uva): Podredumbre negra (92.2%)",
+                "Vid (Uva): Esca (Sarampión negro) (7.1%)",
+                "Tomate: Tizón temprano (0.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Podredumbre negra",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 97.48741149902344,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Podredumbre negra (97.5%)",
+                "Vid (Uva): Esca (Sarampión negro) (2.5%)",
+                "Tomate: Tizón temprano (0.0%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "Black%20rot%20on%20foliage.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 42.764862060546875,
+            "correct": false,
+            "top3": [
+                "Manzana: Sarna del manzano (42.8%)",
+                "Manzana: Roya del manzano (18.9%)",
+                "Maíz: Roya común (10.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Roya del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 19.488271713256836,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Manzana: Roya del manzano (19.5%)",
+                "Manzana: Sarna del manzano (17.3%)",
+                "Vid (Uva): Podredumbre negra (12.7%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "Black%20rot%20on%20foliage2.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "mvp2": {
+            "predicted": "Manzana: Roya del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 32.72134780883789,
+            "correct": false,
+            "top3": [
+                "Manzana: Roya del manzano (32.7%)",
+                "Vid (Uva): Saludable (20.7%)",
+                "Manzana: Sarna del manzano (14.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 42.44251251220703,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Vid (Uva): Saludable (42.4%)",
+                "Manzana: Roya del manzano (16.1%)",
+                "Manzana: Podredumbre negra (12.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "brleaf2_zoom.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "mvp2": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 33.10434341430664,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (33.1%)",
+                "Vid (Uva): Podredumbre negra (24.7%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (23.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Podredumbre negra",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 84.66918182373047,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Podredumbre negra (84.7%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (9.0%)",
+                "Vid (Uva): Esca (Sarampión negro) (1.7%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "grape_F15a.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "mvp2": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 68.18853759765625,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (68.2%)",
+                "Vid (Uva): Podredumbre negra (9.2%)",
+                "Tomate: Mancha foliar por Septoria (6.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Esca (Sarampión negro)",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 97.19093322753906,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Esca (Sarampión negro) (97.2%)",
+                "Vid (Uva): Podredumbre negra (1.5%)",
+                "Tomate: Tizón temprano (0.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "piano%20gully%20spray%20seed%20damage%2006%20%289%29.JPG.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Podredumbre negra",
+        "mvp2": {
+            "predicted": "Vid (Uva): Tizón foliar por Isariopsis",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 45.32649612426758,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Tizón foliar por Isariopsis (45.3%)",
+                "Vid (Uva): Saludable (34.0%)",
+                "Manzana: Sarna del manzano (10.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 97.185791015625,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Vid (Uva): Saludable (97.2%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (2.6%)",
+                "Manzana: Sarna del manzano (0.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "0000.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "mvp2": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 37.11754608154297,
+            "correct": true,
+            "top3": [
+                "Vid (Uva): Saludable (37.1%)",
+                "Vid (Uva): Esca (Sarampión negro) (33.5%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (21.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 71.384033203125,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Saludable (71.4%)",
+                "Vid (Uva): Esca (Sarampión negro) (9.4%)",
+                "Vid (Uva): Podredumbre negra (8.5%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "730-grape-leaf-2560x1600-nature-wallpaper.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "mvp2": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 45.93589401245117,
+            "correct": false,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (45.9%)",
+                "Manzana: Sarna del manzano (22.6%)",
+                "Tomate: Tizón tardío (6.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 36.72600555419922,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (36.7%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (22.0%)",
+                "Vid (Uva): Saludable (15.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "depositphotos_3443387-stock-photo-the-green-grape-leaf-on.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "mvp2": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 63.38985061645508,
+            "correct": true,
+            "top3": [
+                "Vid (Uva): Saludable (63.4%)",
+                "Vid (Uva): Esca (Sarampión negro) (13.6%)",
+                "Manzana: Saludable (5.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 86.37952423095703,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Saludable (86.4%)",
+                "Maíz: Roya común (6.4%)",
+                "Tomate: Tizón tardío (3.5%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "depositphotos_6898486-stock-photo-grape-leaves.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "mvp2": {
+            "predicted": "Vid (Uva): Tizón foliar por Isariopsis",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 41.55927276611328,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Tizón foliar por Isariopsis (41.6%)",
+                "Vid (Uva): Saludable (32.0%)",
+                "Tomate: Tizón tardío (9.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 91.26209259033203,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Saludable (91.3%)",
+                "Tomate: Tizón tardío (5.2%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (3.0%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "DSCN7317.JPG.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 62.85365676879883,
+            "correct": false,
+            "top3": [
+                "Manzana: Sarna del manzano (62.9%)",
+                "Tomate: Tizón tardío (12.6%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (4.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 31.474903106689453,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Manzana: Sarna del manzano (31.5%)",
+                "Tomate: Tizón tardío (18.8%)",
+                "Pimiento: Mancha bacteriana (11.6%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "grape-leaf-14309623.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "mvp2": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 79.59109497070312,
+            "correct": true,
+            "top3": [
+                "Vid (Uva): Saludable (79.6%)",
+                "Vid (Uva): Esca (Sarampión negro) (6.1%)",
+                "Tomate: Mancha foliar por Septoria (4.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 81.75819396972656,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Saludable (81.8%)",
+                "Vid (Uva): Esca (Sarampión negro) (6.8%)",
+                "Tomate: Mancha foliar por Septoria (3.5%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "grapes-leaves.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "mvp2": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 55.75127029418945,
+            "correct": true,
+            "top3": [
+                "Vid (Uva): Saludable (55.8%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (17.5%)",
+                "Manzana: Sarna del manzano (14.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 95.70712280273438,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Saludable (95.7%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (2.0%)",
+                "Tomate: Tizón tardío (1.3%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "grapevine-leaf-7466071.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "mvp2": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 67.56963348388672,
+            "correct": true,
+            "top3": [
+                "Vid (Uva): Saludable (67.6%)",
+                "Vid (Uva): Esca (Sarampión negro) (22.2%)",
+                "Vid (Uva): Podredumbre negra (6.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 92.90010070800781,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Saludable (92.9%)",
+                "Vid (Uva): Esca (Sarampión negro) (4.0%)",
+                "Tomate: Tizón tardío (1.2%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "P1130286.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "mvp2": {
+            "predicted": "Vid (Uva): Tizón foliar por Isariopsis",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 25.872589111328125,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Tizón foliar por Isariopsis (25.9%)",
+                "Vid (Uva): Esca (Sarampión negro) (19.9%)",
+                "Tomate: Tizón tardío (12.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Saludable",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 21.375768661499023,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Saludable (21.4%)",
+                "Tomate: Tizón tardío (20.1%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (13.6%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "vitis-riparia-le-ahaines-b.jpg",
+        "crop": "Vid (Uva)",
+        "ground_truth": "Vid (Uva): Saludable",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 45.37260055541992,
+            "correct": false,
+            "top3": [
+                "Manzana: Sarna del manzano (45.4%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (19.7%)",
+                "Tomate: Tizón tardío (19.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 61.92267608642578,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (61.9%)",
+                "Vid (Uva): Podredumbre negra (21.1%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (7.3%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "00.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 53.966773986816406,
+            "correct": true,
+            "top3": [
+                "Pimiento: Mancha bacteriana (54.0%)",
+                "Maíz: Roya común (9.0%)",
+                "Manzana: Roya del manzano (7.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 27.583154678344727,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Maíz: Roya común (27.6%)",
+                "Tomate: Tizón temprano (16.9%)",
+                "Papa: Tizón temprano (14.9%)"
+            ]
+        },
+        "category": "REGRESSION"
+    },
+    {
+        "filename": "000.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 22.42487144470215,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón temprano (22.4%)",
+                "Maíz: Roya común (15.4%)",
+                "Maíz: Mancha foliar gris por Cercospora (12.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 37.95446014404297,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón temprano (38.0%)",
+                "Maíz: Mancha foliar gris por Cercospora (21.9%)",
+                "Maíz: Roya común (14.9%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "01.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 50.671566009521484,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (50.7%)",
+                "Maíz: Roya común (19.9%)",
+                "Tomate: Tizón temprano (5.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 92.11161041259766,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (92.1%)",
+                "Maíz: Roya común (2.0%)",
+                "Tomate: Tizón temprano (2.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "Bacterial-spot-pepper2.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 40.12147903442383,
+            "correct": true,
+            "top3": [
+                "Pimiento: Mancha bacteriana (40.1%)",
+                "Vid (Uva): Podredumbre negra (29.8%)",
+                "Tomate: Mancha foliar por Septoria (9.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Podredumbre negra",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 78.45697021484375,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Vid (Uva): Podredumbre negra (78.5%)",
+                "Tomate: Mancha foliar por Septoria (12.1%)",
+                "Pimiento: Mancha bacteriana (7.6%)"
+            ]
+        },
+        "category": "REGRESSION"
+    },
+    {
+        "filename": "bacterial_leaf_spot_pepper_l.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 92.43486785888672,
+            "correct": true,
+            "top3": [
+                "Pimiento: Mancha bacteriana (92.4%)",
+                "Manzana: Podredumbre negra (2.1%)",
+                "Manzana: Sarna del manzano (2.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 98.09606170654297,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Pimiento: Mancha bacteriana (98.1%)",
+                "Papa: Tizón temprano (1.0%)",
+                "Manzana: Sarna del manzano (0.2%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "CMVpepperLeafShock-copy-50QUALITY-1ge8umw.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 43.119754791259766,
+            "correct": true,
+            "top3": [
+                "Pimiento: Mancha bacteriana (43.1%)",
+                "Tomate: Tizón tardío (21.6%)",
+                "Tomate: Mancha foliar por Septoria (10.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Podredumbre negra",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 43.805850982666016,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Vid (Uva): Podredumbre negra (43.8%)",
+                "Tomate: Tizón temprano (33.3%)",
+                "Tomate: Tizón tardío (10.2%)"
+            ]
+        },
+        "category": "REGRESSION"
+    },
+    {
+        "filename": "H5w92.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 31.177886962890625,
+            "correct": true,
+            "top3": [
+                "Pimiento: Mancha bacteriana (31.2%)",
+                "Pimiento: Saludable (28.0%)",
+                "Tomate: Tizón tardío (13.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Saludable",
+            "crop_predicted": "Pimiento",
+            "confidence": 50.53750228881836,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Pimiento: Saludable (50.5%)",
+                "Tomate: Tizón tardío (26.7%)",
+                "Tomate: Tizón temprano (10.5%)"
+            ]
+        },
+        "category": "REGRESSION"
+    },
+    {
+        "filename": "pepper-spot.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 55.527687072753906,
+            "correct": true,
+            "top3": [
+                "Pimiento: Mancha bacteriana (55.5%)",
+                "Maíz: Roya común (14.9%)",
+                "Pimiento: Saludable (6.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 61.05629348754883,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Pimiento: Mancha bacteriana (61.1%)",
+                "Maíz: Roya común (11.4%)",
+                "Pimiento: Saludable (9.5%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "pepper_bacterial-spot_03_zoom.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 58.375762939453125,
+            "correct": true,
+            "top3": [
+                "Pimiento: Mancha bacteriana (58.4%)",
+                "Maíz: Roya común (10.7%)",
+                "Pimiento: Saludable (6.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 75.72895812988281,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Pimiento: Mancha bacteriana (75.7%)",
+                "Tomate: Mancha bacteriana (10.6%)",
+                "Pimiento: Saludable (4.7%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "10148582-green-leaf-of-pepper.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "mvp2": {
+            "predicted": "Pimiento: Saludable",
+            "crop_predicted": "Pimiento",
+            "confidence": 98.54090881347656,
+            "correct": true,
+            "top3": [
+                "Pimiento: Saludable (98.5%)",
+                "Papa: Saludable (0.5%)",
+                "Pimiento: Mancha bacteriana (0.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Saludable",
+            "crop_predicted": "Pimiento",
+            "confidence": 99.89364624023438,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Pimiento: Saludable (99.9%)",
+                "Papa: Saludable (0.1%)",
+                "Maíz: Saludable (0.0%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "4825902504_5fa80b65b8_z.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 63.9246826171875,
+            "correct": false,
+            "top3": [
+                "Maíz: Roya común (63.9%)",
+                "Tomate: Tizón tardío (17.6%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (5.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 55.740081787109375,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Maíz: Roya común (55.7%)",
+                "Tomate: Tizón tardío (40.6%)",
+                "Tomate: Saludable (1.5%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "e33155.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 31.00543975830078,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (31.0%)",
+                "Tomate: Saludable (17.0%)",
+                "Manzana: Sarna del manzano (8.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 45.13447189331055,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (45.1%)",
+                "Tomate: Saludable (29.4%)",
+                "Pimiento: Saludable (17.6%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "GREEN%20BELL%20PLANT%20YELLOW%20LEAF.JPG.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 34.92117691040039,
+            "correct": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (34.9%)",
+                "Tomate: Tizón tardío (33.3%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (14.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 72.16680145263672,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (72.2%)",
+                "Tomate: Tizón temprano (12.7%)",
+                "Tomate: Tizón tardío (6.5%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "pepper_leaf.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "mvp2": {
+            "predicted": "Pimiento: Saludable",
+            "crop_predicted": "Pimiento",
+            "confidence": 80.68649291992188,
+            "correct": true,
+            "top3": [
+                "Pimiento: Saludable (80.7%)",
+                "Pimiento: Mancha bacteriana (10.7%)",
+                "Tomate: Tizón tardío (3.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Saludable",
+            "crop_predicted": "Pimiento",
+            "confidence": 92.70805358886719,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Pimiento: Saludable (92.7%)",
+                "Pimiento: Mancha bacteriana (4.9%)",
+                "Tomate: Tizón tardío (2.0%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "RnGnC.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "mvp2": {
+            "predicted": "Maíz: Saludable",
+            "crop_predicted": "Maíz",
+            "confidence": 27.599885940551758,
+            "correct": false,
+            "top3": [
+                "Maíz: Saludable (27.6%)",
+                "Pimiento: Saludable (25.8%)",
+                "Tomate: Tizón tardío (13.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Saludable",
+            "crop_predicted": "Pimiento",
+            "confidence": 91.6478271484375,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Pimiento: Saludable (91.6%)",
+                "Tomate: Tizón tardío (3.2%)",
+                "Maíz: Saludable (2.0%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "why-are-my-pepper-plants-yellow-yellow-pepper-plants-yellow-leaves-green-veins-pepper-plants-yellow-veins.jpg",
+        "crop": "Pimiento",
+        "ground_truth": "Pimiento: Saludable",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 42.56010818481445,
+            "correct": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (42.6%)",
+                "Pimiento: Saludable (39.1%)",
+                "Tomate: Tizón tardío (12.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Saludable",
+            "crop_predicted": "Pimiento",
+            "confidence": 93.61204528808594,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Pimiento: Saludable (93.6%)",
+                "Pimiento: Mancha bacteriana (5.7%)",
+                "Tomate: Tizón tardío (0.6%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "3023.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 87.75069427490234,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (87.8%)",
+                "Vid (Uva): Podredumbre negra (5.7%)",
+                "Tomate: Tizón temprano (2.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 95.97660827636719,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (96.0%)",
+                "Vid (Uva): Podredumbre negra (2.5%)",
+                "Tomate: Tizón temprano (1.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "backus-056-potato-blight.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 57.13121795654297,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (57.1%)",
+                "Vid (Uva): Podredumbre negra (16.0%)",
+                "Papa: Tizón temprano (6.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 81.850830078125,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (81.9%)",
+                "Papa: Tizón tardío (4.2%)",
+                "Tomate: Tizón temprano (3.9%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "early-blight-alternaria-alternata-leaf-spotting-on-potato-leaf-X91XJE.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "mvp2": {
+            "predicted": "Papa: Tizón temprano",
+            "crop_predicted": "Papa",
+            "confidence": 47.74050521850586,
+            "correct": true,
+            "top3": [
+                "Papa: Tizón temprano (47.7%)",
+                "Maíz: Roya común (24.1%)",
+                "Tomate: Tizón tardío (9.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 39.64961242675781,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Roya común (39.6%)",
+                "Papa: Tizón temprano (31.7%)",
+                "Tomate: Tizón tardío (27.1%)"
+            ]
+        },
+        "category": "REGRESSION"
+    },
+    {
+        "filename": "early-blight-or-target-spot-alternaria-solani-lesions-on-a-tomato-AXK6AY.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 94.39066314697266,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (94.4%)",
+                "Maíz: Roya común (5.2%)",
+                "Manzana: Sarna del manzano (0.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 99.84661102294922,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (99.8%)",
+                "Maíz: Roya común (0.2%)",
+                "Tomate: Tizón temprano (0.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "earlyblightpotato.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "mvp2": {
+            "predicted": "Papa: Tizón temprano",
+            "crop_predicted": "Papa",
+            "confidence": 31.84595489501953,
+            "correct": true,
+            "top3": [
+                "Papa: Tizón temprano (31.8%)",
+                "Tomate: Tizón tardío (30.9%)",
+                "Papa: Tizón tardío (20.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Papa: Tizón temprano",
+            "crop_predicted": "Papa",
+            "confidence": 46.9587516784668,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Papa: Tizón temprano (47.0%)",
+                "Tomate: Tizón tardío (21.3%)",
+                "Tomate: Tizón temprano (17.0%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "potato-blight-phytophthora-infestans-close-up-of-upper-surface-of-BMMRXC.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 27.576297760009766,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (27.6%)",
+                "Papa: Tizón tardío (13.3%)",
+                "Maíz: Roya común (11.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 97.43598937988281,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (97.4%)",
+                "Papa: Tizón tardío (1.8%)",
+                "Vid (Uva): Esca (Sarampión negro) (0.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "potato-early-blight-alternaria-alternata-lesion-on-a-potato-leaf-a1w1em.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 61.02984619140625,
+            "correct": false,
+            "top3": [
+                "Maíz: Roya común (61.0%)",
+                "Tomate: Mancha foliar por Septoria (16.9%)",
+                "Papa: Tizón temprano (6.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 90.15283203125,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Roya común (90.2%)",
+                "Papa: Tizón temprano (8.1%)",
+                "Tomate: Tizón tardío (0.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "potatobd001.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón temprano",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 70.62908935546875,
+            "correct": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (70.6%)",
+                "Tomate: Mancha foliar por Septoria (6.7%)",
+                "Maíz: Roya común (5.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 63.445682525634766,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (63.4%)",
+                "Tomate: Mancha foliar por Septoria (14.6%)",
+                "Vid (Uva): Tizón foliar por Isariopsis (9.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "20090710-lateblight.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 96.38211822509766,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (96.4%)",
+                "Tomate: Tizón temprano (1.3%)",
+                "Manzana: Sarna del manzano (0.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 99.96961212158203,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (100.0%)",
+                "Tomate: Tizón temprano (0.0%)",
+                "Vid (Uva): Saludable (0.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "2540_600.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 93.08700561523438,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (93.1%)",
+                "Tomate: Tizón temprano (3.7%)",
+                "Pimiento: Mancha bacteriana (1.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 97.3002700805664,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (97.3%)",
+                "Tomate: Tizón temprano (2.6%)",
+                "Maíz: Roya común (0.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "5816740026_d42ef24413_Phytophthora-Infestans.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 95.4159164428711,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (95.4%)",
+                "Manzana: Sarna del manzano (2.0%)",
+                "Tomate: Moho foliar (0.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 99.3921127319336,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (99.4%)",
+                "Manzana: Sarna del manzano (0.4%)",
+                "Tomate: Tizón temprano (0.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "B2750109-Late_blight_on_a_potato_plant-SPL.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 55.57145309448242,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (55.6%)",
+                "Pimiento: Mancha bacteriana (10.4%)",
+                "Manzana: Sarna del manzano (9.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 84.93789672851562,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (84.9%)",
+                "Tomate: Tizón temprano (2.2%)",
+                "Vid (Uva): Podredumbre negra (2.2%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "irish-blight-symptoms-on-potato-leaves-atmf8b.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 55.005760192871094,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (55.0%)",
+                "Tomate: Mancha foliar por Septoria (12.4%)",
+                "Tomate: Tizón temprano (7.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 83.61539459228516,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (83.6%)",
+                "Tomate: Mancha foliar por Septoria (9.8%)",
+                "Maíz: Roya común (1.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "LateBlight04.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 31.931188583374023,
+            "correct": false,
+            "top3": [
+                "Maíz: Roya común (31.9%)",
+                "Tomate: Tizón tardío (26.4%)",
+                "Maíz: Tizón foliar norteño (10.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 57.89362716674805,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Maíz: Roya común (57.9%)",
+                "Tomate: Tizón tardío (13.6%)",
+                "Tomate: Mancha foliar por Septoria (8.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "potato-late-blight.jpg",
+        "crop": "Papa",
+        "ground_truth": "Papa: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 74.65424346923828,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (74.7%)",
+                "Manzana: Sarna del manzano (4.3%)",
+                "Tomate: Tizón temprano (4.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 99.28086853027344,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (99.3%)",
+                "Papa: Tizón tardío (0.3%)",
+                "Tomate: Mancha foliar por Septoria (0.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "%2320+Bacterial+Spot+and+Speck.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 79.86871337890625,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (79.9%)",
+                "Tomate: Tizón temprano (10.7%)",
+                "Pimiento: Mancha bacteriana (2.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 98.1266098022461,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (98.1%)",
+                "Tomate: Tizón temprano (1.2%)",
+                "Maíz: Mancha foliar gris por Cercospora (0.3%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "07.17.18-Common_Tomato_Diseases_Canker-258x300.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 80.11488342285156,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (80.1%)",
+                "Pimiento: Mancha bacteriana (10.9%)",
+                "Tomate: Tizón temprano (2.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 90.34207153320312,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (90.3%)",
+                "Tomate: Tizón temprano (4.2%)",
+                "Pimiento: Mancha bacteriana (3.5%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "bact-spot-fig-1.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 27.005016326904297,
+            "correct": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (27.0%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (20.8%)",
+                "Manzana: Sarna del manzano (9.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 53.767906188964844,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (53.8%)",
+                "Maíz: Roya común (11.0%)",
+                "Maíz: Mancha foliar gris por Cercospora (8.5%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "Bacterial_spots563.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 68.75660705566406,
+            "correct": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (68.8%)",
+                "Maíz: Roya común (8.8%)",
+                "Tomate: Tizón tardío (5.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 58.608455657958984,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (58.6%)",
+                "Vid (Uva): Podredumbre negra (13.0%)",
+                "Tomate: Tizón tardío (9.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "Tom_Bact3.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 78.13327026367188,
+            "correct": false,
+            "top3": [
+                "Maíz: Roya común (78.1%)",
+                "Tomate: Tizón tardío (19.1%)",
+                "Maíz: Saludable (1.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 82.85948944091797,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Roya común (82.9%)",
+                "Tomate: Tizón tardío (17.1%)",
+                "Tomate: Mancha bacteriana (0.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "Tom_Bact7.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 55.462615966796875,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón temprano (55.5%)",
+                "Tomate: Ácaros / Arañuela roja (11.1%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (8.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 34.924835205078125,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón temprano (34.9%)",
+                "Tomate: Tizón tardío (25.3%)",
+                "Tomate: Mancha foliar por Septoria (11.2%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "Tomato%2BBacterial%2BSpot%2Bon%2BLeaves.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 57.098365783691406,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón temprano (57.1%)",
+                "Pimiento: Mancha bacteriana (13.7%)",
+                "Tomate: Mancha bacteriana (6.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 88.22111511230469,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón temprano (88.2%)",
+                "Tomate: Mancha bacteriana (5.3%)",
+                "Tomate: Tizón tardío (2.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "tomato_bacterial-speck_01_zoom.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Vid (Uva): Podredumbre negra",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 67.93453979492188,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Podredumbre negra (67.9%)",
+                "Tomate: Tizón temprano (12.1%)",
+                "Maíz: Roya común (6.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Vid (Uva): Podredumbre negra",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 95.2017593383789,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Vid (Uva): Podredumbre negra (95.2%)",
+                "Tomate: Tizón temprano (4.3%)",
+                "Tomate: Mancha foliar por Septoria (0.2%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "tomato_V8.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha bacteriana",
+        "mvp2": {
+            "predicted": "Tomate: Mancha bacteriana",
+            "crop_predicted": "Tomate",
+            "confidence": 93.15423583984375,
+            "correct": true,
+            "top3": [
+                "Tomate: Mancha bacteriana (93.2%)",
+                "Tomate: Mancha foliar por Septoria (2.5%)",
+                "Tomate: Moho foliar (1.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha bacteriana",
+            "crop_predicted": "Tomate",
+            "confidence": 96.67333221435547,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Mancha bacteriana (96.7%)",
+                "Tomate: Tizón tardío (1.6%)",
+                "Tomate: Mancha foliar por Septoria (1.5%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "039b47d574bc4bb8a14259a1cd96a741.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 66.59752655029297,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (66.6%)",
+                "Tomate: Tizón temprano (15.5%)",
+                "Pimiento: Mancha bacteriana (4.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 98.50405883789062,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (98.5%)",
+                "Tomate: Tizón temprano (1.3%)",
+                "Maíz: Mancha foliar gris por Cercospora (0.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "100983448.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 63.55717849731445,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón temprano (63.6%)",
+                "Tomate: Tizón tardío (24.9%)",
+                "Papa: Tizón temprano (3.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 97.28561401367188,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón temprano (97.3%)",
+                "Tomate: Tizón tardío (2.6%)",
+                "Tomate: Mancha foliar por Septoria (0.1%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "1234080-Early-Blight.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 95.23286437988281,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (95.2%)",
+                "Tomate: Mancha foliar por Septoria (3.0%)",
+                "Maíz: Roya común (0.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 96.5412826538086,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (96.5%)",
+                "Tomate: Tizón temprano (1.9%)",
+                "Tomate: Mancha foliar por Septoria (0.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "bugs-and-blight-061.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "mvp2": {
+            "predicted": "Maíz: Tizón foliar norteño",
+            "crop_predicted": "Maíz",
+            "confidence": 31.990968704223633,
+            "correct": false,
+            "top3": [
+                "Maíz: Tizón foliar norteño (32.0%)",
+                "Maíz: Saludable (20.5%)",
+                "Vid (Uva): Esca (Sarampión negro) (7.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 39.44696044921875,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (39.4%)",
+                "Maíz: Saludable (39.2%)",
+                "Tomate: Saludable (9.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "dscn3175.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 38.25804138183594,
+            "correct": false,
+            "top3": [
+                "Manzana: Sarna del manzano (38.3%)",
+                "Pimiento: Mancha bacteriana (27.2%)",
+                "Tomate: Moho foliar (6.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 54.02350616455078,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Pimiento: Mancha bacteriana (54.0%)",
+                "Tomate: Mancha foliar por Septoria (11.2%)",
+                "Tomate: Tizón temprano (8.2%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "early_blight1-150x150.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 33.657928466796875,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón temprano (33.7%)",
+                "Tomate: Moho foliar (31.1%)",
+                "Tomate: Tizón tardío (15.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 90.47836303710938,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón temprano (90.5%)",
+                "Tomate: Tizón tardío (4.1%)",
+                "Pimiento: Mancha bacteriana (3.5%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "earlyblight21_.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 36.56810760498047,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón temprano (36.6%)",
+                "Tomate: Tizón tardío (22.1%)",
+                "Tomate: Mancha bacteriana (10.8%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 42.35877227783203,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón temprano (42.4%)",
+                "Tomate: Tizón tardío (34.3%)",
+                "Tomate: Mancha bacteriana (7.2%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "Shoemaker_7068.JPG.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 57.49496841430664,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (57.5%)",
+                "Tomate: Tizón temprano (7.1%)",
+                "Pimiento: Mancha bacteriana (6.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 49.69404983520508,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón temprano (49.7%)",
+                "Tomate: Tizón tardío (40.0%)",
+                "Vid (Uva): Podredumbre negra (7.2%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "tomato_early-blight_01_zoom.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón temprano",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 39.32155990600586,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón temprano (39.3%)",
+                "Tomate: Tizón tardío (26.8%)",
+                "Manzana: Sarna del manzano (12.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 94.0777359008789,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón temprano (94.1%)",
+                "Tomate: Tizón tardío (4.3%)",
+                "Pimiento: Mancha bacteriana (0.5%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "110822-206-Tomato-blight.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 93.92913818359375,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón tardío (93.9%)",
+                "Tomate: Tizón temprano (3.6%)",
+                "Papa: Tizón tardío (1.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 96.8489761352539,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (96.8%)",
+                "Tomate: Tizón temprano (2.9%)",
+                "Papa: Tizón tardío (0.2%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "18c.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 93.0652847290039,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón tardío (93.1%)",
+                "Papa: Tizón tardío (4.7%)",
+                "Tomate: Tizón temprano (0.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 99.45259857177734,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (99.5%)",
+                "Papa: Tizón tardío (0.5%)",
+                "Maíz: Roya común (0.0%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "636368370164094909-late-blight-15-.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 98.96870422363281,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón tardío (99.0%)",
+                "Maíz: Tizón foliar norteño (0.3%)",
+                "Tomate: Tizón temprano (0.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 99.1281967163086,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (99.1%)",
+                "Tomate: Tizón temprano (0.5%)",
+                "Maíz: Tizón foliar norteño (0.2%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "70.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 20.206377029418945,
+            "correct": false,
+            "top3": [
+                "Manzana: Sarna del manzano (20.2%)",
+                "Pimiento: Mancha bacteriana (14.0%)",
+                "Tomate: Mancha bacteriana (11.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 67.8338623046875,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón temprano (67.8%)",
+                "Tomate: Tizón tardío (14.2%)",
+                "Pimiento: Mancha bacteriana (5.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "dsc_8148cs.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 56.591529846191406,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón tardío (56.6%)",
+                "Papa: Tizón tardío (36.6%)",
+                "Tomate: Tizón temprano (5.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 92.9389877319336,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (92.9%)",
+                "Papa: Tizón tardío (6.2%)",
+                "Tomate: Tizón temprano (0.8%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "E%29Tomato-late-blight-foliar.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 49.922996520996094,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón tardío (49.9%)",
+                "Tomate: Mancha diana (10.3%)",
+                "Tomate: Saludable (9.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 71.38282012939453,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (71.4%)",
+                "Tomate: Mancha diana (19.3%)",
+                "Tomate: Saludable (3.9%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "image.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 44.09104919433594,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón tardío (44.1%)",
+                "Pimiento: Mancha bacteriana (16.0%)",
+                "Tomate: Tizón temprano (8.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 89.81414031982422,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (89.8%)",
+                "Tomate: Tizón temprano (4.7%)",
+                "Pimiento: Saludable (2.4%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "IMG_5808.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 83.33514404296875,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón tardío (83.3%)",
+                "Tomate: Tizón temprano (6.2%)",
+                "Tomate: Moho foliar (1.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 95.44866943359375,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (95.4%)",
+                "Tomate: Tizón temprano (3.2%)",
+                "Pimiento: Mancha bacteriana (0.4%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "late_blight_tomato_leaf_spore1x1200.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 81.84370422363281,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón tardío (81.8%)",
+                "Tomate: Mancha bacteriana (14.6%)",
+                "Tomate: Tizón temprano (2.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 89.3863296508789,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (89.4%)",
+                "Tomate: Mancha bacteriana (8.0%)",
+                "Maíz: Tizón foliar norteño (0.7%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "LateBlt09_06.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Tizón tardío",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 38.00606155395508,
+            "correct": true,
+            "top3": [
+                "Tomate: Tizón tardío (38.0%)",
+                "Tomate: Moho foliar (29.9%)",
+                "Tomate: Tizón temprano (19.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 82.66826629638672,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (82.7%)",
+                "Tomate: Tizón temprano (12.2%)",
+                "Tomate: Moho foliar (4.4%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "49%20Leafmold%20Bottom.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 53.77314758300781,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (53.8%)",
+                "Tomate: Tizón temprano (15.9%)",
+                "Pimiento: Saludable (7.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 89.2606430053711,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (89.3%)",
+                "Papa: Tizón tardío (3.4%)",
+                "Pimiento: Mancha bacteriana (2.7%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "50%20Leafmold%20Top.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 29.533109664916992,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón temprano (29.5%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (29.4%)",
+                "Tomate: Mancha foliar por Septoria (8.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 35.14179992675781,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón temprano (35.1%)",
+                "Tomate: Mancha foliar por Septoria (26.3%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (12.7%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "BIGSD.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 33.03166198730469,
+            "correct": false,
+            "top3": [
+                "Maíz: Roya común (33.0%)",
+                "Maíz: Saludable (18.2%)",
+                "Tomate: Tizón tardío (11.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 43.16606521606445,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón temprano (43.2%)",
+                "Pimiento: Mancha bacteriana (25.2%)",
+                "Vid (Uva): Esca (Sarampión negro) (13.9%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "black_leaf_mold_in_zina_tina.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 66.61087799072266,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (66.6%)",
+                "Tomate: Tizón temprano (13.3%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (5.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 64.26897430419922,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón temprano (64.3%)",
+                "Tomate: Tizón tardío (30.7%)",
+                "Tomate: Mancha foliar por Septoria (1.3%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "dscn6689.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 63.096946716308594,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (63.1%)",
+                "Tomate: Tizón temprano (24.1%)",
+                "Maíz: Roya común (3.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 59.201820373535156,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (59.2%)",
+                "Tomate: Tizón temprano (40.2%)",
+                "Maíz: Roya común (0.2%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "fungus-univ-of-minnesoeta.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Moho foliar",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 56.18428421020508,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (56.2%)",
+                "Tomate: Tizón temprano (18.9%)",
+                "Tomate: Moho foliar (12.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 51.59247589111328,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón temprano (51.6%)",
+                "Tomate: Moho foliar (24.2%)",
+                "Tomate: Tizón tardío (21.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "0.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 70.42054748535156,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (70.4%)",
+                "Maíz: Roya común (8.3%)",
+                "Tomate: Tizón temprano (7.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 99.56319427490234,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (99.6%)",
+                "Tomate: Tizón temprano (0.3%)",
+                "Papa: Tizón tardío (0.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "2septoria-tomato.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "mvp2": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 95.14103698730469,
+            "correct": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (95.1%)",
+                "Maíz: Roya común (2.1%)",
+                "Tomate: Tizón tardío (1.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 71.81803894042969,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (71.8%)",
+                "Maíz: Roya común (26.3%)",
+                "Tomate: Mancha bacteriana (0.9%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "2STEM.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "mvp2": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 89.51649475097656,
+            "correct": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (89.5%)",
+                "Maíz: Roya común (3.9%)",
+                "Tomate: Mancha bacteriana (3.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 89.92020416259766,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (89.9%)",
+                "Tomate: Mancha bacteriana (6.7%)",
+                "Tomate: Tizón temprano (2.6%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "55830b60a7cf2.image.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 42.245521545410156,
+            "correct": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (42.2%)",
+                "Tomate: Tizón temprano (21.0%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (14.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 59.450035095214844,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón temprano (59.5%)",
+                "Pimiento: Mancha bacteriana (20.4%)",
+                "Tomate: Mancha foliar por Septoria (11.5%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "6134794031202304.jpeg.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "mvp2": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 38.00210952758789,
+            "correct": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (38.0%)",
+                "Tomate: Mancha bacteriana (18.2%)",
+                "Tomate: Tizón temprano (13.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 34.99992752075195,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (35.0%)",
+                "Vid (Uva): Podredumbre negra (21.0%)",
+                "Tomate: Mancha bacteriana (19.8%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "636227737977191231-septoria-leaf-spot-VT.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 21.77294921875,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón temprano (21.8%)",
+                "Tomate: Tizón tardío (12.9%)",
+                "Manzana: Sarna del manzano (11.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 48.23983383178711,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (48.2%)",
+                "Tomate: Tizón temprano (41.0%)",
+                "Vid (Uva): Podredumbre negra (3.1%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "6447731_orig.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "mvp2": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 39.73512649536133,
+            "correct": false,
+            "top3": [
+                "Maíz: Roya común (39.7%)",
+                "Tomate: Mancha foliar por Septoria (30.8%)",
+                "Tomate: Mancha bacteriana (7.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 82.88679504394531,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (82.9%)",
+                "Vid (Uva): Podredumbre negra (6.0%)",
+                "Tomate: Tizón temprano (4.3%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "7-17-Photo3_Septoria-MARY.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 37.40387725830078,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón temprano (37.4%)",
+                "Maíz: Mancha foliar gris por Cercospora (30.1%)",
+                "Maíz: Tizón foliar norteño (8.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 45.25956344604492,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón temprano (45.3%)",
+                "Maíz: Mancha foliar gris por Cercospora (20.3%)",
+                "Maíz: Tizón foliar norteño (11.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "early-blight-septoria-ls-fig-3.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "mvp2": {
+            "predicted": "Tomate: Mancha bacteriana",
+            "crop_predicted": "Tomate",
+            "confidence": 54.829872131347656,
+            "correct": false,
+            "top3": [
+                "Tomate: Mancha bacteriana (54.8%)",
+                "Tomate: Mancha foliar por Septoria (17.2%)",
+                "Tomate: Tizón temprano (7.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha bacteriana",
+            "crop_predicted": "Tomate",
+            "confidence": 60.14906311035156,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Mancha bacteriana (60.1%)",
+                "Maíz: Tizón foliar norteño (16.8%)",
+                "Tomate: Mancha foliar por Septoria (14.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "RARZ4.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "mvp2": {
+            "predicted": "Tomate: Moho foliar",
+            "crop_predicted": "Tomate",
+            "confidence": 30.658309936523438,
+            "correct": false,
+            "top3": [
+                "Tomate: Moho foliar (30.7%)",
+                "Tomate: Tizón temprano (23.5%)",
+                "Tomate: Tizón tardío (17.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 55.78654861450195,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (55.8%)",
+                "Tomate: Tizón tardío (16.6%)",
+                "Tomate: Tizón temprano (15.6%)"
+            ]
+        },
+        "category": "FIXED"
+    },
+    {
+        "filename": "sept4disease-019.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Mancha foliar por Septoria",
+        "mvp2": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 86.33057403564453,
+            "correct": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (86.3%)",
+                "Tomate: Mancha bacteriana (4.8%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (3.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 96.19182586669922,
+            "correct": true,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (96.2%)",
+                "Tomate: Tizón temprano (1.3%)",
+                "Tomate: Mancha bacteriana (1.1%)"
+            ]
+        },
+        "category": "ROBUST"
+    },
+    {
+        "filename": "11-40580_5.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "mvp2": {
+            "predicted": "Maíz: Saludable",
+            "crop_predicted": "Maíz",
+            "confidence": 74.38683319091797,
+            "correct": false,
+            "top3": [
+                "Maíz: Saludable (74.4%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (6.8%)",
+                "Maíz: Mancha foliar gris por Cercospora (5.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Saludable",
+            "crop_predicted": "Maíz",
+            "confidence": 67.17952728271484,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Maíz: Saludable (67.2%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (18.8%)",
+                "Tomate: Saludable (5.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "17fc47.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 29.394317626953125,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (29.4%)",
+                "Vid (Uva): Podredumbre negra (12.5%)",
+                "Tomate: Tizón temprano (11.2%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 50.91769790649414,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (50.9%)",
+                "Tomate: Tizón temprano (27.5%)",
+                "Vid (Uva): Podredumbre negra (12.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "8226402877_9abf151b5b_b.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 64.96752166748047,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (65.0%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (12.3%)",
+                "Maíz: Saludable (6.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 85.66650390625,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (85.7%)",
+                "Tomate: Moho foliar (5.2%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (4.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "fwa2013313115151.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 42.56159591674805,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (42.6%)",
+                "Maíz: Saludable (18.4%)",
+                "Manzana: Sarna del manzano (8.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Moho foliar",
+            "crop_predicted": "Tomate",
+            "confidence": 33.8154296875,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Moho foliar (33.8%)",
+                "Maíz: Saludable (13.1%)",
+                "Tomate: Tizón tardío (11.6%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "glyphosate.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 43.68544006347656,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (43.7%)",
+                "Maíz: Saludable (14.8%)",
+                "Tomate: Tizón temprano (9.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 69.62480163574219,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (69.6%)",
+                "Tomate: Tizón temprano (12.9%)",
+                "Tomate: Mancha foliar por Septoria (6.9%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "tylcv-seminar-1-638.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 39.77820587158203,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (39.8%)",
+                "Maíz: Roya común (30.5%)",
+                "Maíz: Saludable (14.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 88.24535369873047,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (88.2%)",
+                "Maíz: Roya común (6.0%)",
+                "Maíz: Saludable (2.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "9511.img.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 39.89126205444336,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón temprano (39.9%)",
+                "Tomate: Tizón tardío (38.0%)",
+                "Vid (Uva): Podredumbre negra (7.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 52.93072509765625,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón temprano (52.9%)",
+                "Tomate: Tizón tardío (24.9%)",
+                "Vid (Uva): Podredumbre negra (11.3%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "D%29AlfMov.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 81.85038757324219,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (81.9%)",
+                "Tomate: Saludable (9.8%)",
+                "Maíz: Roya común (4.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 95.2213363647461,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (95.2%)",
+                "Maíz: Roya común (2.3%)",
+                "Tomate: Saludable (1.9%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "everystockphoto-21099455-l.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 20.6832332611084,
+            "correct": false,
+            "top3": [
+                "Manzana: Sarna del manzano (20.7%)",
+                "Pimiento: Mancha bacteriana (13.6%)",
+                "Maíz: Roya común (13.3%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Mancha foliar por Septoria",
+            "crop_predicted": "Tomate",
+            "confidence": 41.05152893066406,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Mancha foliar por Septoria (41.1%)",
+                "Pimiento: Mancha bacteriana (23.0%)",
+                "Tomate: Tizón tardío (11.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "ill-tomato-of-tomato-mosaic-virus-DBE17N.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 96.98450469970703,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (97.0%)",
+                "Maíz: Saludable (1.7%)",
+                "Tomate: Tizón temprano (0.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 99.15103912353516,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (99.2%)",
+                "Tomate: Tizón temprano (0.7%)",
+                "Maíz: Saludable (0.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "page_2.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "mvp2": {
+            "predicted": "Pimiento: Mancha bacteriana",
+            "crop_predicted": "Pimiento",
+            "confidence": 40.83555603027344,
+            "correct": false,
+            "top3": [
+                "Pimiento: Mancha bacteriana (40.8%)",
+                "Tomate: Tizón tardío (17.6%)",
+                "Maíz: Roya común (12.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 92.373046875,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (92.4%)",
+                "Maíz: Roya común (2.2%)",
+                "Pimiento: Mancha bacteriana (2.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "tmv-tomato-34.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "mvp2": {
+            "predicted": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+            "crop_predicted": "Tomate",
+            "confidence": 42.498130798339844,
+            "correct": false,
+            "top3": [
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (42.5%)",
+                "Pimiento: Saludable (19.3%)",
+                "Tomate: Tizón tardío (12.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+            "crop_predicted": "Tomate",
+            "confidence": 51.98982238769531,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (52.0%)",
+                "Tomate: Mancha foliar por Septoria (16.6%)",
+                "Tomate: Tizón tardío (13.5%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "tmv-tomato-9.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 79.00899505615234,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (79.0%)",
+                "Manzana: Sarna del manzano (5.7%)",
+                "Maíz: Roya común (5.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 99.38304138183594,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (99.4%)",
+                "Maíz: Roya común (0.2%)",
+                "Manzana: Sarna del manzano (0.2%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "toma_TMV.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 73.13721466064453,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (73.1%)",
+                "Maíz: Roya común (9.1%)",
+                "Tomate: Tizón temprano (6.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 75.56809997558594,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (75.6%)",
+                "Maíz: Roya común (18.0%)",
+                "Tomate: Tizón temprano (3.5%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "Tomato-Mosaic-1wdr2jx-300x225.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "mvp2": {
+            "predicted": "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV)",
+            "crop_predicted": "Tomate",
+            "confidence": 27.615070343017578,
+            "correct": false,
+            "top3": [
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (27.6%)",
+                "Tomate: Tizón tardío (23.0%)",
+                "Papa: Tizón temprano (12.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 28.314865112304688,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (28.3%)",
+                "Maíz: Mancha foliar gris por Cercospora (22.0%)",
+                "Maíz: Roya común (15.8%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "tomato_virus_04_zoom.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Virus del mosaico del tomate (TMV)",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 47.076995849609375,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (47.1%)",
+                "Pimiento: Mancha bacteriana (17.4%)",
+                "Maíz: Tizón foliar norteño (8.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Maíz: Roya común",
+            "crop_predicted": "Maíz",
+            "confidence": 31.945777893066406,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Maíz: Roya común (31.9%)",
+                "Tomate: Tizón tardío (31.8%)",
+                "Pimiento: Saludable (17.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "1684.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 68.68636322021484,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (68.7%)",
+                "Vid (Uva): Saludable (21.2%)",
+                "Tomate: Mancha foliar por Septoria (2.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 79.19290161132812,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (79.2%)",
+                "Vid (Uva): Saludable (18.1%)",
+                "Tomate: Mancha foliar por Septoria (1.4%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "2013-08-20-06.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "mvp2": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 45.75884246826172,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón temprano (45.8%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (21.2%)",
+                "Tomate: Tizón tardío (16.1%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 96.32196807861328,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón temprano (96.3%)",
+                "Tomate: Mancha bacteriana (1.7%)",
+                "Vid (Uva): Podredumbre negra (1.0%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "90e2c0.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "mvp2": {
+            "predicted": "Vid (Uva): Podredumbre negra",
+            "crop_predicted": "Vid (Uva)",
+            "confidence": 18.538410186767578,
+            "correct": false,
+            "top3": [
+                "Vid (Uva): Podredumbre negra (18.5%)",
+                "Manzana: Sarna del manzano (18.2%)",
+                "Maíz: Roya común (16.4%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 37.18343734741211,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón temprano (37.2%)",
+                "Tomate: Tizón tardío (27.5%)",
+                "Vid (Uva): Podredumbre negra (14.9%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "DSCN1015.JPG.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 88.51240539550781,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (88.5%)",
+                "Tomate: Saludable (5.1%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (1.7%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 98.03694915771484,
+            "correct": false,
+            "top3_hit": true,
+            "top3": [
+                "Tomate: Tizón tardío (98.0%)",
+                "Tomate: Saludable (1.4%)",
+                "Tomate: Mancha foliar por Septoria (0.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "IMG_1246.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "mvp2": {
+            "predicted": "Manzana: Sarna del manzano",
+            "crop_predicted": "Manzana",
+            "confidence": 41.34534454345703,
+            "correct": false,
+            "top3": [
+                "Manzana: Sarna del manzano (41.3%)",
+                "Tomate: Tizón tardío (33.3%)",
+                "Pimiento: Saludable (5.6%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 83.73825073242188,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (83.7%)",
+                "Pimiento: Saludable (7.7%)",
+                "Vid (Uva): Podredumbre negra (4.5%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "main-qimg-d9c2a93f60568485c989670d9bbf703b.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 25.518381118774414,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (25.5%)",
+                "Tomate: Virus del mosaico del tomate (TMV) (16.1%)",
+                "Tomate: Tizón temprano (14.9%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 95.2276611328125,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (95.2%)",
+                "Tomate: Tizón temprano (1.1%)",
+                "Tomate: Mancha foliar por Septoria (1.1%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "Tomato59.JPG.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 34.062808990478516,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (34.1%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (21.0%)",
+                "Maíz: Saludable (16.5%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón temprano",
+            "crop_predicted": "Tomate",
+            "confidence": 35.49151611328125,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón temprano (35.5%)",
+                "Tomate: Tizón tardío (27.5%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (10.3%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    },
+    {
+        "filename": "Tomato_leaf.jpg",
+        "crop": "Tomate",
+        "ground_truth": "Tomate: Saludable",
+        "mvp2": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 87.08641052246094,
+            "correct": false,
+            "top3": [
+                "Tomate: Tizón tardío (87.1%)",
+                "Pimiento: Mancha bacteriana (3.1%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (3.0%)"
+            ]
+        },
+        "mvp4": {
+            "predicted": "Tomate: Tizón tardío",
+            "crop_predicted": "Tomate",
+            "confidence": 95.41100311279297,
+            "correct": false,
+            "top3_hit": false,
+            "top3": [
+                "Tomate: Tizón tardío (95.4%)",
+                "Pimiento: Saludable (2.3%)",
+                "Tomate: Virus del enrollamiento amarillo de la hoja (TYLCV) (1.7%)"
+            ]
+        },
+        "category": "STRUCTURAL"
+    }
+]

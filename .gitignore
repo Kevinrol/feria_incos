@@ -1,0 +1,21 @@
+.venv/
+
+MVPDR/
+PlantDoc-Dataset/
+PlantVillage-Dataset/
+dataset/
+datasets/
+plantseg/
+plantwild/
+*.zip
+
+# Archivos de prueba
+hoja_tomate.jpg
+test-plant.jpg
+
+__pycache__/
+*.pyc
+
+.vscode/
+.idea/
+*.log

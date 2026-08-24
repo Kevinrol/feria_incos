@@ -1,0 +1,51 @@
+{
+    "plantvillage_internal_test": {
+        "environment": "Laboratorio (fondo controlado, luz uniforme)",
+        "accuracy": 91.28134846687317,
+        "samples_evaluated": 5104
+    },
+    "plantdoc_external_benchmark": {
+        "environment": "Campo real (fondos ruidosos, sombras, hojas superpuestas)",
+        "top1_exact_accuracy": 33.13953488372093,
+        "top3_accuracy": 53.48837209302325,
+        "crop_identification_accuracy": 69.18604651162791,
+        "samples_evaluated": 172,
+        "classes_evaluated": 20
+    },
+    "domain_shift_analysis": {
+        "generalization_gap_top1": 58.14181358315224,
+        "crop_recognition_gap": 22.09530195524526
+    },
+    "per_crop_breakdown": {
+        "Manzana": {
+            "total_images": 29,
+            "exact_disease_accuracy": 31.03448275862069,
+            "crop_identification_accuracy": 48.275862068965516
+        },
+        "Maíz": {
+            "total_images": 25,
+            "exact_disease_accuracy": 48.0,
+            "crop_identification_accuracy": 100.0
+        },
+        "Papa": {
+            "total_images": 15,
+            "exact_disease_accuracy": 13.333333333333334,
+            "crop_identification_accuracy": 13.333333333333334
+        },
+        "Pimiento": {
+            "total_images": 16,
+            "exact_disease_accuracy": 56.25,
+            "crop_identification_accuracy": 68.75
+        },
+        "Tomate": {
+            "total_images": 69,
+            "exact_disease_accuracy": 26.08695652173913,
+            "crop_identification_accuracy": 78.26086956521739
+        },
+        "Vid (Uva)": {
+            "total_images": 18,
+            "exact_disease_accuracy": 38.88888888888889,
+            "crop_identification_accuracy": 72.22222222222221
+        }
+    }
+}

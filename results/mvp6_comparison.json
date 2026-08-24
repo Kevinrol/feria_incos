@@ -1,0 +1,137 @@
+{
+    "MVP 2 (Baseline)": {
+        "model_file": "models/agrovision_mobilenetv2_mvp2.keras",
+        "pv_test_top1": 91.28,
+        "pw_test_top1": 17.38,
+        "pw_test_top3": 36.47,
+        "plantdoc_top1": 33.14,
+        "plantdoc_top3": 53.49,
+        "crop_identification": 69.19,
+        "potato_to_tomato": 10,
+        "tomato_to_potato": 0,
+        "lab_domain_shift_gap": 58.14,
+        "real_generalization_gap": -15.76,
+        "per_crop": {
+            "Manzana": {
+                "total": 29,
+                "top1_acc": 31.03,
+                "crop_acc": 48.28
+            },
+            "Maíz": {
+                "total": 25,
+                "top1_acc": 48.0,
+                "crop_acc": 100.0
+            },
+            "Vid (Uva)": {
+                "total": 18,
+                "top1_acc": 38.89,
+                "crop_acc": 72.22
+            },
+            "Pimiento": {
+                "total": 16,
+                "top1_acc": 56.25,
+                "crop_acc": 68.75
+            },
+            "Papa": {
+                "total": 15,
+                "top1_acc": 13.33,
+                "crop_acc": 13.33
+            },
+            "Tomate": {
+                "total": 69,
+                "top1_acc": 26.09,
+                "crop_acc": 78.26
+            }
+        }
+    },
+    "MVP 4 (Strong Aug)": {
+        "model_file": "models/agrovision_mobilenetv2_mvp4.keras",
+        "pv_test_top1": 94.98,
+        "pw_test_top1": 18.01,
+        "pw_test_top3": 38.44,
+        "plantdoc_top1": 34.3,
+        "plantdoc_top3": 56.4,
+        "crop_identification": 70.35,
+        "potato_to_tomato": 10,
+        "tomato_to_potato": 0,
+        "lab_domain_shift_gap": 60.68,
+        "real_generalization_gap": -16.29,
+        "per_crop": {
+            "Manzana": {
+                "total": 29,
+                "top1_acc": 31.03,
+                "crop_acc": 34.48
+            },
+            "Maíz": {
+                "total": 25,
+                "top1_acc": 40.0,
+                "crop_acc": 100.0
+            },
+            "Vid (Uva)": {
+                "total": 18,
+                "top1_acc": 55.56,
+                "crop_acc": 77.78
+            },
+            "Pimiento": {
+                "total": 16,
+                "top1_acc": 43.75,
+                "crop_acc": 56.25
+            },
+            "Papa": {
+                "total": 15,
+                "top1_acc": 6.67,
+                "crop_acc": 6.67
+            },
+            "Tomate": {
+                "total": 69,
+                "top1_acc": 31.88,
+                "crop_acc": 89.86
+            }
+        }
+    },
+    "MVP 6 (In-the-Wild)": {
+        "model_file": "models/agrovision_mobilenetv2_mvp6.keras",
+        "pv_test_top1": 93.4,
+        "pw_test_top1": 47.58,
+        "pw_test_top3": 73.3,
+        "plantdoc_top1": 42.44,
+        "plantdoc_top3": 71.51,
+        "crop_identification": 77.33,
+        "potato_to_tomato": 3,
+        "tomato_to_potato": 9,
+        "lab_domain_shift_gap": 50.96,
+        "real_generalization_gap": 5.14,
+        "per_crop": {
+            "Manzana": {
+                "total": 29,
+                "top1_acc": 55.17,
+                "crop_acc": 86.21
+            },
+            "Maíz": {
+                "total": 25,
+                "top1_acc": 60.0,
+                "crop_acc": 100.0
+            },
+            "Vid (Uva)": {
+                "total": 18,
+                "top1_acc": 61.11,
+                "crop_acc": 83.33
+            },
+            "Pimiento": {
+                "total": 16,
+                "top1_acc": 37.5,
+                "crop_acc": 50.0
+            },
+            "Papa": {
+                "total": 15,
+                "top1_acc": 33.33,
+                "crop_acc": 73.33
+            },
+            "Tomate": {
+                "total": 69,
+                "top1_acc": 28.99,
+                "crop_acc": 71.01
+            }
+        }
+    }
+}

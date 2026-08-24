@@ -1,0 +1,145 @@
+{
+    "mvp2_baseline": {
+        "plantvillage_top1": 91.28134846687317,
+        "plantvillage_loss": 0.2823407053947449,
+        "plantdoc_top1": 33.13953488372093,
+        "plantdoc_top3": 53.48837209302325,
+        "plantdoc_crop_acc": 69.18604651162791,
+        "domain_shift_gap": 58.14181358315224,
+        "papa_to_tomate": 10,
+        "tomate_to_papa": 0,
+        "per_crop": {
+            "Manzana": {
+                "samples": 29,
+                "top1": 31.03448275862069,
+                "crop_acc": 48.275862068965516
+            },
+            "Maíz": {
+                "samples": 25,
+                "top1": 48.0,
+                "crop_acc": 100.0
+            },
+            "Papa": {
+                "samples": 15,
+                "top1": 13.333333333333334,
+                "crop_acc": 13.333333333333334
+            },
+            "Pimiento": {
+                "samples": 16,
+                "top1": 56.25,
+                "crop_acc": 68.75
+            },
+            "Tomate": {
+                "samples": 69,
+                "top1": 26.08695652173913,
+                "crop_acc": 78.26086956521739
+            },
+            "Vid (Uva)": {
+                "samples": 18,
+                "top1": 38.88888888888889,
+                "crop_acc": 72.22222222222221
+            }
+        }
+    },
+    "mvp4_strong_aug": {
+        "plantvillage_top1": 94.98432874679565,
+        "plantvillage_loss": 0.14913824200630188,
+        "plantdoc_top1": 34.30232558139535,
+        "plantdoc_top3": 56.395348837209305,
+        "plantdoc_crop_acc": 70.34883720930233,
+        "domain_shift_gap": 60.6820031654003,
+        "papa_to_tomate": 10,
+        "tomate_to_papa": 0,
+        "per_crop": {
+            "Manzana": {
+                "samples": 29,
+                "top1": 31.03448275862069,
+                "crop_acc": 34.48275862068966
+            },
+            "Maíz": {
+                "samples": 25,
+                "top1": 40.0,
+                "crop_acc": 100.0
+            },
+            "Papa": {
+                "samples": 15,
+                "top1": 6.666666666666667,
+                "crop_acc": 6.666666666666667
+            },
+            "Pimiento": {
+                "samples": 16,
+                "top1": 43.75,
+                "crop_acc": 56.25
+            },
+            "Tomate": {
+                "samples": 69,
+                "top1": 31.88405797101449,
+                "crop_acc": 89.85507246376811
+            },
+            "Vid (Uva)": {
+                "samples": 18,
+                "top1": 55.55555555555556,
+                "crop_acc": 77.77777777777779
+            }
+        }
+    },
+    "mvp5a_crop_zero_retrain": {
+        "plantvillage_top1": 94.98432874679565,
+        "plantdoc_top1_global": 34.3,
+        "plantdoc_top1_valid_cohort": 36.36,
+        "plantdoc_top3": 56.98,
+        "plantdoc_crop_acc": 70.93,
+        "domain_shift_gap": 60.68,
+        "papa_to_tomate": 10,
+        "tomate_to_papa": 0
+    },
+    "mvp5b_crop_aware": {
+        "plantvillage_top1": 95.023512840271,
+        "plantvillage_loss": 0.14738501608371735,
+        "plantdoc_top1": 26.744186046511626,
+        "plantdoc_top3": 53.48837209302325,
+        "plantdoc_crop_acc": 67.44186046511628,
+        "domain_shift_gap": 68.27932679375937,
+        "papa_to_tomate": 12,
+        "tomate_to_papa": 1,
+        "per_crop": {
+            "Manzana": {
+                "samples": 29,
+                "top1": 24.137931034482758,
+                "crop_acc": 34.48275862068966
+            },
+            "Maíz": {
+                "samples": 25,
+                "top1": 32.0,
+                "crop_acc": 100.0
+            },
+            "Papa": {
+                "samples": 15,
+                "top1": 6.666666666666667,
+                "crop_acc": 6.666666666666667
+            },
+            "Pimiento": {
+                "samples": 16,
+                "top1": 50.0,
+                "crop_acc": 56.25
+            },
+            "Tomate": {
+                "samples": 69,
+                "top1": 18.84057971014493,
+                "crop_acc": 81.15942028985508
+            },
+            "Vid (Uva)": {
+                "samples": 18,
+                "top1": 50.0,
+                "crop_acc": 83.33333333333334
+            }
+        }
+    },
+    "delta_mvp5b_vs_mvp4": {
+        "plantdoc_top1": -7.5581395348837255,
+        "plantdoc_top3": -2.9069767441860535,
+        "plantdoc_crop_acc": -2.9069767441860535,
+        "domain_shift_reduction": -7.597323628359064,
+        "papa_to_tomate_delta": 2
+    }
+}
