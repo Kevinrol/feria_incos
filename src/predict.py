@@ -48,6 +48,26 @@ def predict_single_image(
         else:
             raise FileNotFoundError(f"No se encontro el modelo en: {model_path}. Ejecute src/train.py primero.")
 
+    # Auto-detectar archivo de clases según el modelo
+    # LeafNet-kallpa (MVP7) y MVP2 usan 27 clases (class_names_mvp2.json)
+    if classes_path == "models/class_names_mvp2.json":
+        is_kallpa = "kallpa" in str(model_path).lower() or "mvp7" in str(model_path).lower()
+        is_mvp2 = "mvp2" in str(model_path).lower()
+        if is_kallpa and not Path(classes_path).exists():
+            classes_path = "models/class_names_mvp2.json"
+        # Verificar que el archivo de clases tiene el número correcto de clases
+        # Si se usa el modelo kallpa con class_names.json (13 clases), auto-corregir
+        model_name_lower = str(model_path).lower()
+        if "kallpa" in model_name_lower or "mvp2" in model_name_lower:
+            preferred = "models/class_names_mvp2.json"
+            if classes_path != preferred and Path(preferred).exists():
+                import json as _json
+                with open(classes_path) as _f:
+                    _n = len(_json.load(_f))
+                if _n < 20:  # class_names.json solo tiene 13 clases
+                    print(f"[!] Auto-corrigiendo clases: '{classes_path}' ({_n} clases) → '{preferred}' (27 clases)")
+                    classes_path = preferred
+
     # 1. Cargar clases y metadatos
     with open(classes_path, "r", encoding="utf-8") as f:
         class_names = json.load(f)
@@ -58,14 +78,20 @@ def predict_single_image(
             mapping_dict = json.load(f).get("metadata", {})
 
     # 2. Cargar modelo
-    model = tf.keras.models.load_model(model_path)
+    model = tf.keras.models.load_model(model_path, compile=False)
 
     # 3. Cargar y preprocesar imagen
     img = Image.open(img_file).convert("RGB")
     img_resized = img.resize((224, 224), Image.Resampling.BILINEAR)
     img_array = np.array(img_resized, dtype=np.float32)
     img_batch = np.expand_dims(img_array, axis=0)
-    img_preprocessed = preprocess_input(img_batch)
+    
+    # Preprocesamiento adaptable según arquitectura
+    is_efficientnet = "kallpa" in str(model_path).lower() or any("efficientnet" in str(getattr(l, "name", "")).lower() for l in model.layers)
+    if is_efficientnet:
+        img_preprocessed = img_batch  # EfficientNet tiene capa interna de normalización [0, 255]
+    else:
+        img_preprocessed = preprocess_input(img_batch)
 
     # 4. Inferencia
     preds = model.predict(img_preprocessed, verbose=0)[0]

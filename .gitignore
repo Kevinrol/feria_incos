@@ -9,13 +9,22 @@ plantseg/
 plantwild/
 *.zip
 
-# Archivos de prueba
+# Archivos de prueba e imagenes de internet
 hoja_tomate.jpg
 test-plant.jpg
+cover-fungicidas*.jpg
+
+# Logs de entrenamiento (archivos grandes, no necesarios en repo)
+*.log
+models/kallpa_training.log
 
 __pycache__/
 *.pyc
+*.pycache/
 
 .vscode/
 .idea/
-*.log
+
+# Archivos temporales
+*.tmp
+*.bak
